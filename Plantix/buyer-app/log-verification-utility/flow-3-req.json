@@ -8,14 +8,14 @@
             "context": {
                 "domain": "ONDC:AGR10",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
                 "action": "search",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
-                "transaction_id": "91c28673-8a23-4f8b-8484-835331be724e",
-                "message_id": "81461f9a-2ec4-4b9c-a3fb-f5c16871af73",
-                "timestamp": "2024-11-06T12:35:00.704535+00:00Z",
+                "transaction_id": "71f4c53a-dfb7-43f6-8e9e-98f02efbd2dc",
+                "message_id": "25e99107-d80d-4333-a507-444198bd4b90",
+                "timestamp": "2024-11-21T11:11:02.406Z",
                 "ttl": "PT30S"
             },
             "message": {
@@ -52,14 +52,14 @@
             "context": {
                 "domain": "ONDC:AGR10",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
                 "action": "on_search",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
-                "transaction_id": "91c28673-8a23-4f8b-8484-835331be724e",
-                "message_id": "81461f9a-2ec4-4b9c-a3fb-f5c16871af73",
-                "timestamp": "2024-11-06T12:35:03.817Z",
+                "transaction_id": "71f4c53a-dfb7-43f6-8e9e-98f02efbd2dc",
+                "message_id": "25e99107-d80d-4333-a507-444198bd4b90",
+                "timestamp": "2024-11-21T11:11:16.562Z",
                 "ttl": "PT30S",
                 "bpp_id": "preprod-ondc.addble.com",
                 "bpp_uri": "https://preprod-ondc.addble.com/"
@@ -98,42 +98,42 @@
                     },
                     "bpp/providers": [
                         {
-                            "id": "UBzw4QGewWquuLE8brUS",
+                            "id": "otJQetBqULjdFiys1IKa",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-11-06T12:35:03.817Z"
+                                "timestamp": "2024-11-21T11:11:16.562Z"
                             },
                             "descriptor": {
-                                "name": "Syngenta World",
-                                "symbol": "https://media.istockphoto.com/id/1172109385/vector/pharmacy-cross-initial-ss-design-inspiration.jpg?s=1024x1024&w=is&k=20&c=4mjXZRSIaKpAV7MoqUiHLp1L1PzC1ojIfPR1X5sHFsc=",
-                                "short_desc": "Syngenta World",
-                                "long_desc": "Syngenta World",
+                                "name": "PLANTIX TEST",
+                                "symbol": "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg",
+                                "short_desc": "PLANTIX TEST",
+                                "long_desc": "PLANTIX TEST",
                                 "images": [
-                                    "https://media.istockphoto.com/id/1172109385/vector/pharmacy-cross-initial-ss-design-inspiration.jpg?s=1024x1024&w=is&k=20&c=4mjXZRSIaKpAV7MoqUiHLp1L1PzC1ojIfPR1X5sHFsc="
+                                    "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg"
                                 ]
                             },
                             "locations": [
                                 {
-                                    "id": "EOKJBqid0zecXCvyQBCR",
-                                    "gps": "12.91414122848031, 77.63768276727586",
+                                    "id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "gps": "24.814414, 93.878926",
                                     "address": {
-                                        "locality": "14th Main Road",
-                                        "street": "14th Main Road",
-                                        "city": "BENGALURU",
-                                        "area_code": "560102",
-                                        "state": "Karnataka"
+                                        "locality": "UK Road",
+                                        "street": "UK Road",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
                                     },
                                     "time": {
                                         "days": "1,2,3,4,5,6,7",
+                                        "schedule": {
+                                            "holidays": []
+                                        },
                                         "range": {
                                             "start": "0000",
                                             "end": "2359"
                                         },
-                                        "schedule": {
-                                            "holidays": []
-                                        },
                                         "label": "enable",
-                                        "timestamp": "2024-11-06T12:35:03.812Z"
+                                        "timestamp": "2024-11-21T11:11:16.552Z"
                                     }
                                 }
                             ],
@@ -143,23 +143,73 @@
                                     "list": [
                                         {
                                             "code": "location",
-                                            "value": "EOKJBqid0zecXCvyQBCR"
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
                                         },
                                         {
                                             "code": "category",
-                                            "value": "Seed"
+                                            "value": "Fertilizer"
                                         },
                                         {
                                             "code": "type",
-                                            "value": "10"
+                                            "value": "12"
                                         },
                                         {
                                             "code": "val",
-                                            "value": "5000"
+                                            "value": "IND"
                                         },
                                         {
                                             "code": "unit",
-                                            "value": "km"
+                                            "value": "country"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "serviceability",
+                                    "list": [
+                                        {
+                                            "code": "location",
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
+                                        },
+                                        {
+                                            "code": "category",
+                                            "value": "Pesticide"
+                                        },
+                                        {
+                                            "code": "type",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "code": "val",
+                                            "value": "IND"
+                                        },
+                                        {
+                                            "code": "unit",
+                                            "value": "country"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "serviceability",
+                                    "list": [
+                                        {
+                                            "code": "location",
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
+                                        },
+                                        {
+                                            "code": "category",
+                                            "value": "Tools and Machinery"
+                                        },
+                                        {
+                                            "code": "type",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "code": "val",
+                                            "value": "IND"
+                                        },
+                                        {
+                                            "code": "unit",
+                                            "value": "country"
                                         }
                                     ]
                                 },
@@ -172,7 +222,7 @@
                                         },
                                         {
                                             "code": "location",
-                                            "value": "EOKJBqid0zecXCvyQBCR"
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
                                         },
                                         {
                                             "code": "day_from",
@@ -201,7 +251,7 @@
                                         },
                                         {
                                             "code": "location",
-                                            "value": "EOKJBqid0zecXCvyQBCR"
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
                                         },
                                         {
                                             "code": "day_from",
@@ -230,7 +280,7 @@
                                         },
                                         {
                                             "code": "location",
-                                            "value": "EOKJBqid0zecXCvyQBCR"
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
                                         },
                                         {
                                             "code": "day_from",
@@ -254,50 +304,50 @@
                             "categories": [],
                             "items": [
                                 {
-                                    "id": "1htOfSnGRJczHdedQNaw",
+                                    "id": "6qEZUv7ck2TTYlFpFWgq",
                                     "time": {
                                         "label": "enable",
-                                        "timestamp": "2024-08-07T10:53:03.910Z"
+                                        "timestamp": "2024-11-21T11:00:17.815Z"
                                     },
                                     "descriptor": {
-                                        "name": "Veg Seeds - 250 gm - 250 gm - 1 Pack",
-                                        "code": "5:1htOfSnGRJczHdedQNaw",
-                                        "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/front_1htOfSnGRJczHdedQNaw_900x900.png",
-                                        "short_desc": "Veg Seeds 1 Pack",
-                                        "long_desc": "Veg Seeds 1 Pack",
+                                        "name": "Test fertilizer - 2 gm",
+                                        "code": "5:6qEZUv7ck2TTYlFpFWgq",
+                                        "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/front_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg",
+                                        "short_desc": "Test fertilizer 2 unit",
+                                        "long_desc": "Test fertilizer description",
                                         "images": [
-                                            "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/front_1htOfSnGRJczHdedQNaw_900x900.png",
-                                            "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/back_1htOfSnGRJczHdedQNaw_900x900.png"
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/front_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg",
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/back_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg"
                                         ]
                                     },
                                     "price": {
                                         "currency": "INR",
-                                        "value": "40.00",
-                                        "maximum_value": "40.00"
+                                        "value": "800.00",
+                                        "maximum_value": "900.00"
                                     },
-                                    "category_id": "Seed",
+                                    "category_id": "Fertilizer",
                                     "fulfillment_id": "F1",
-                                    "location_id": "EOKJBqid0zecXCvyQBCR",
-                                    "@ondc/org/returnable": true,
-                                    "@ondc/org/cancellable": true,
-                                    "@ondc/org/contact_details_consumer_care": "Jane Doe, adden.company@gmail.com, 6362944815",
+                                    "location_id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "@ondc/org/returnable": false,
+                                    "@ondc/org/cancellable": false,
+                                    "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
                                     "@ondc/org/time_to_ship": "PT4H",
                                     "recommended": true,
                                     "quantity": {
                                         "unitized": {
                                             "measure": {
                                                 "unit": "gram",
-                                                "value": "250"
+                                                "value": "2"
                                             }
                                         },
                                         "available": {
-                                            "count": "99"
+                                            "count": "0"
                                         },
                                         "maximum": {
-                                            "count": "99"
+                                            "count": "0"
                                         }
                                     },
-                                    "@ondc/org/return_window": "P7D",
+                                    "@ondc/org/return_window": "P1D",
                                     "@ondc/org/seller_pickup_return": false,
                                     "@ondc/org/available_on_cod": false,
                                     "tags": [
@@ -315,7 +365,143 @@
                                             "list": [
                                                 {
                                                     "code": "brand",
-                                                    "value": "SYNGENTA"
+                                                    "value": "Test fertilizer brand"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "WkM0I3RIFbcHeLJxUceY",
+                                    "time": {
+                                        "label": "enable",
+                                        "timestamp": "2024-11-07T13:09:23.165Z"
+                                    },
+                                    "descriptor": {
+                                        "name": "Green Racer Bio-Pesticide - 100 mL",
+                                        "code": "5:WkM0I3RIFbcHeLJxUceY",
+                                        "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/front_WkM0I3RIFbcHeLJxUceY_900x900.jpeg",
+                                        "short_desc": "Green Racer Bio-Pesticide 1 unit",
+                                        "long_desc": "Green Racer is a bio-pesticide formulated with Beauveria bassiana, a naturally occurring fungus. It is effective in controlling a wide range of pests, including caterpillars, whiteflies, mealybugs, and aphids. To use, mix the recommended amount of Green Racer in water and apply it to your plants. It is important to follow the instructions on the product label for safe and effective use.",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/front_WkM0I3RIFbcHeLJxUceY_900x900.jpeg",
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/back_WkM0I3RIFbcHeLJxUceY_900x900.jpeg"
+                                        ]
+                                    },
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "150.00",
+                                        "maximum_value": "150.00"
+                                    },
+                                    "category_id": "Pesticide",
+                                    "fulfillment_id": "F1",
+                                    "location_id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "@ondc/org/returnable": false,
+                                    "@ondc/org/cancellable": false,
+                                    "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
+                                    "@ondc/org/time_to_ship": "PT4H",
+                                    "recommended": true,
+                                    "quantity": {
+                                        "unitized": {
+                                            "measure": {
+                                                "unit": "millilitre",
+                                                "value": "100"
+                                            }
+                                        },
+                                        "available": {
+                                            "count": "99"
+                                        },
+                                        "maximum": {
+                                            "count": "99"
+                                        }
+                                    },
+                                    "@ondc/org/return_window": "P1D",
+                                    "@ondc/org/seller_pickup_return": false,
+                                    "@ondc/org/available_on_cod": false,
+                                    "tags": [
+                                        {
+                                            "code": "origin",
+                                            "list": [
+                                                {
+                                                    "code": "country",
+                                                    "value": "IND"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "code": "attribute",
+                                            "list": [
+                                                {
+                                                    "code": "brand",
+                                                    "value": "PLANTIX"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Ys3dWuXU3W8sUVAvxIei",
+                                    "time": {
+                                        "label": "enable",
+                                        "timestamp": "2024-11-19T09:31:35.882Z"
+                                    },
+                                    "descriptor": {
+                                        "name": "My Test machine - 1 kg - 1 kg - My net content description",
+                                        "code": "5:Ys3dWuXU3W8sUVAvxIei",
+                                        "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/front_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg",
+                                        "short_desc": "My Test machine My net content description",
+                                        "long_desc": "My test description",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/front_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg",
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/back_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg"
+                                        ]
+                                    },
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "1030.00",
+                                        "maximum_value": "1530.00"
+                                    },
+                                    "category_id": "Tools and Machinery",
+                                    "fulfillment_id": "F1",
+                                    "location_id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "@ondc/org/returnable": false,
+                                    "@ondc/org/cancellable": false,
+                                    "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
+                                    "@ondc/org/time_to_ship": "PT4H",
+                                    "recommended": true,
+                                    "quantity": {
+                                        "unitized": {
+                                            "measure": {
+                                                "unit": "kilogram",
+                                                "value": "1"
+                                            }
+                                        },
+                                        "available": {
+                                            "count": "99"
+                                        },
+                                        "maximum": {
+                                            "count": "2"
+                                        }
+                                    },
+                                    "@ondc/org/return_window": "P1D",
+                                    "@ondc/org/seller_pickup_return": false,
+                                    "@ondc/org/available_on_cod": false,
+                                    "tags": [
+                                        {
+                                            "code": "origin",
+                                            "list": [
+                                                {
+                                                    "code": "country",
+                                                    "value": "IND"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "code": "attribute",
+                                            "list": [
+                                                {
+                                                    "code": "brand",
+                                                    "value": "My Test Brand"
                                                 }
                                             ]
                                         }
@@ -327,16 +513,16 @@
                                     "id": "F1",
                                     "type": "Delivery",
                                     "contact": {
-                                        "phone": "9954780440",
-                                        "email": "jane@addble.com"
+                                        "phone": "0000000000",
+                                        "email": "plantix@addble.com"
                                     }
                                 },
                                 {
                                     "id": "F2",
                                     "type": "Self-Pickup",
                                     "contact": {
-                                        "phone": "9954780440",
-                                        "email": "jane@addble.com"
+                                        "phone": "0000000000",
+                                        "email": "plantix@addble.com"
                                     }
                                 }
                             ],
@@ -349,42 +535,42 @@
         "select_out_of_stock": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "select",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "select",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "bc7b0b27-2148-4461-ae7d-b153c71516bb",
-                "message_id": "d6901b32-9c7a-4547-a9e5-2345bf40845c",
-                "timestamp": "2024-11-07T08:17:17.607465+00:00",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "fb2c6f24-13f0-40a7-9188-61049aff0bfd",
+                "message_id": "794f2a02-2586-4f93-aa26-72f90379300a",
+                "timestamp": "2024-11-22T11:34:46.255Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "YwsErUQ8WvFwOn1Uo1Ni",
-                            "location_id": "7kZu3N7P57bFinuL1yha",
+                            "id": "6qEZUv7ck2TTYlFpFWgq",
+                            "location_id": "4jCjKEGVSOOOWeJ8Flwo",
                             "quantity": {
                                 "count": 2
                             }
                         },
                         {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "location_id": "7kZu3N7P57bFinuL1yha",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "location_id": "4jCjKEGVSOOOWeJ8Flwo",
                             "quantity": {
-                                "count": 100
+                                "count": 1
                             }
                         }
                     ],
@@ -392,61 +578,64 @@
                         {
                             "end": {
                                 "location": {
-                                    "gps": "12.8870964,77.5734042",
+                                    "gps": "24.8146672,93.8784754",
                                     "address": {
-                                        "area_code": "560078"
+                                        "area_code": "795146"
                                     }
                                 }
                             }
                         }
-                    ]
+                    ],
+                    "payment": {
+                        "type": "ON-ORDER"
+                    }
                 }
             }
         },
         "on_select_out_of_stock": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "on_select",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "on_select",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "bc7b0b27-2148-4461-ae7d-b153c71516bb",
-                "message_id": "d6901b32-9c7a-4547-a9e5-2345bf40845c",
-                "timestamp": "2024-11-07T08:17:19.008Z",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "fb2c6f24-13f0-40a7-9188-61049aff0bfd",
+                "message_id": "794f2a02-2586-4f93-aa26-72f90379300a",
+                "timestamp": "2024-11-22T11:34:49.825Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "fulfillment_id": "59ee666e-6749-40a0-9beb-e5b1e8035631",
-                            "id": "YwsErUQ8WvFwOn1Uo1Ni"
+                            "fulfillment_id": "330a35e4-781b-436d-b4c8-a96870ab4fc7",
+                            "id": "6qEZUv7ck2TTYlFpFWgq"
                         },
                         {
-                            "fulfillment_id": "59ee666e-6749-40a0-9beb-e5b1e8035631",
-                            "id": "4vkgqsSvRZEwywbpMeW2"
+                            "fulfillment_id": "330a35e4-781b-436d-b4c8-a96870ab4fc7",
+                            "id": "Ys3dWuXU3W8sUVAvxIei"
                         }
                     ],
                     "fulfillments": [
                         {
-                            "id": "59ee666e-6749-40a0-9beb-e5b1e8035631",
+                            "id": "330a35e4-781b-436d-b4c8-a96870ab4fc7",
                             "type": "Delivery",
-                            "@ondc/org/provider_name": "Farmigo Agro Tech",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
                             "tracking": false,
                             "@ondc/org/category": "Standard Delivery",
-                            "@ondc/org/TAT": "P1DT3H",
+                            "@ondc/org/TAT": "PT8H",
                             "state": {
                                 "descriptor": {
                                     "code": "Serviceable"
@@ -457,42 +646,42 @@
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "12050.00"
+                            "value": "1050.00"
                         },
                         "breakup": [
                             {
-                                "@ondc/org/item_id": "4vkgqsSvRZEwywbpMeW2",
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
                                 "@ondc/org/item_quantity": {
-                                    "count": 40
+                                    "count": 1
                                 },
                                 "@ondc/org/title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
+                                "title": "My Test machine",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "12000"
+                                    "value": "1030"
                                 },
                                 "item": {
                                     "price": {
                                         "currency": "INR",
-                                        "value": "300"
+                                        "value": "1030"
                                     },
                                     "quantity": {
                                         "available": {
-                                            "count": "0"
+                                            "count": "99"
                                         },
                                         "maximum": {
-                                            "count": "0"
+                                            "count": "2"
                                         }
                                     }
                                 }
                             },
                             {
-                                "@ondc/org/item_id": "YwsErUQ8WvFwOn1Uo1Ni",
+                                "@ondc/org/item_id": "6qEZUv7ck2TTYlFpFWgq",
                                 "@ondc/org/item_quantity": {
                                     "count": 0
                                 },
                                 "@ondc/org/title_type": "item",
-                                "title": "Any Seeds",
+                                "title": "Test fertilizer",
                                 "price": {
                                     "currency": "INR",
                                     "value": "0"
@@ -500,7 +689,7 @@
                                 "item": {
                                     "price": {
                                         "currency": "INR",
-                                        "value": "100"
+                                        "value": "800"
                                     },
                                     "quantity": {
                                         "available": {
@@ -513,12 +702,12 @@
                                 }
                             },
                             {
-                                "@ondc/org/item_id": "59ee666e-6749-40a0-9beb-e5b1e8035631",
+                                "@ondc/org/item_id": "330a35e4-781b-436d-b4c8-a96870ab4fc7",
                                 "title": "Delivery charges",
                                 "@ondc/org/title_type": "delivery",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ],
@@ -529,41 +718,41 @@
             "error": {
                 "type": "DOMAIN-ERROR",
                 "code": "40002",
-                "message": "[{\"item_id\":\"YwsErUQ8WvFwOn1Uo1Ni\",\"error\":\"40002\"}]"
+                "message": "[{\"item_id\":\"6qEZUv7ck2TTYlFpFWgq\",\"error\":\"40002\"}]"
             }
         },
         "select": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "select",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "select",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "401188e5-bfeb-4d0f-9c4d-021f6383b4c9",
-                "message_id": "bc188a2a-f171-469a-ae4c-dbab8524e558",
-                "timestamp": "2024-11-07T08:21:46.770959+00:00",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "7ad148db-0b3b-40ce-a41d-4c6a8f0d8db0",
+                "timestamp": "2024-11-22T11:35:59.620Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "location_id": "7kZu3N7P57bFinuL1yha",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "location_id": "4jCjKEGVSOOOWeJ8Flwo",
                             "quantity": {
-                                "count": 5
+                                "count": 1
                             }
                         }
                     ],
@@ -571,143 +760,146 @@
                         {
                             "end": {
                                 "location": {
-                                    "gps": "12.8870964,77.5734042",
+                                    "gps": "24.8146672,93.8784754",
                                     "address": {
-                                        "area_code": "560078"
+                                        "area_code": "795146"
                                     }
                                 }
                             }
                         }
-                    ]
+                    ],
+                    "payment": {
+                        "type": "ON-ORDER"
+                    }
                 }
             }
         },
         "on_select": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "on_select",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "on_select",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "401188e5-bfeb-4d0f-9c4d-021f6383b4c9",
-                "message_id": "bc188a2a-f171-469a-ae4c-dbab8524e558",
-                "timestamp": "2024-11-07T08:21:48.357Z",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "7ad148db-0b3b-40ce-a41d-4c6a8f0d8db0",
+                "timestamp": "2024-11-22T11:36:02.204Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
-                        "locations": [
+                    "items": [
+                        {
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb"
+                        }
+                    ],
+                    "quote": {
+                        "ttl": "P1D",
+                        "price": {
+                            "currency": "INR",
+                            "value": "1050.00"
+                        },
+                        "breakup": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "1030"
+                                },
+                                "title": "My Test machine",
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
+                                "@ondc/org/title_type": "item",
+                                "item": {
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "1030"
+                                    },
+                                    "quantity": {
+                                        "maximum": {
+                                            "count": "2"
+                                        },
+                                        "available": {
+                                            "count": "99"
+                                        }
+                                    }
+                                },
+                                "@ondc/org/item_quantity": {
+                                    "count": 1
+                                }
+                            },
+                            {
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "20"
+                                },
+                                "title": "Delivery charges",
+                                "@ondc/org/item_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                                "@ondc/org/title_type": "delivery"
                             }
                         ]
                     },
-                    "items": [
-                        {
-                            "fulfillment_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2",
-                            "id": "4vkgqsSvRZEwywbpMeW2"
-                        }
-                    ],
+                    "provider": {
+                        "id": "otJQetBqULjdFiys1IKa",
+                        "locations": [
+                            {
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
+                            }
+                        ]
+                    },
                     "fulfillments": [
                         {
-                            "id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2",
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
                             "type": "Delivery",
-                            "@ondc/org/provider_name": "Farmigo Agro Tech",
-                            "tracking": false,
-                            "@ondc/org/category": "Standard Delivery",
-                            "@ondc/org/TAT": "P1DT3H",
                             "state": {
                                 "descriptor": {
                                     "code": "Serviceable"
                                 }
-                            }
-                        }
-                    ],
-                    "quote": {
-                        "price": {
-                            "currency": "INR",
-                            "value": "1550.00"
-                        },
-                        "breakup": [
-                            {
-                                "@ondc/org/item_id": "4vkgqsSvRZEwywbpMeW2",
-                                "@ondc/org/item_quantity": {
-                                    "count": 5
-                                },
-                                "@ondc/org/title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "1500"
-                                },
-                                "item": {
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "300"
-                                    },
-                                    "quantity": {
-                                        "available": {
-                                            "count": "99"
-                                        },
-                                        "maximum": {
-                                            "count": "99"
-                                        }
-                                    }
-                                }
                             },
-                            {
-                                "@ondc/org/item_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2",
-                                "title": "Delivery charges",
-                                "@ondc/org/title_type": "delivery",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "50"
-                                }
-                            }
-                        ],
-                        "ttl": "P1D"
-                    }
+                            "tracking": false,
+                            "@ondc/org/TAT": "PT8H",
+                            "@ondc/org/category": "Standard Delivery",
+                            "@ondc/org/provider_name": "PLANTIX TEST"
+                        }
+                    ]
                 }
             }
         },
         "init": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "init",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "init",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "401188e5-bfeb-4d0f-9c4d-021f6383b4c9",
-                "message_id": "f18635c6-8f51-4070-9ec1-3b3968de67d8",
-                "timestamp": "2024-11-07T08:29:34.706867+00:00",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "add233b8-e982-44e3-b157-1f9a01887cc2",
+                "timestamp": "2024-11-22T11:38:02.838Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "fulfillment_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb",
                             "quantity": {
-                                "count": 5
+                                "count": 1
                             }
                         }
                     ],
@@ -726,16 +918,16 @@
                         "tax_number": "TAX123456",
                         "email": "john.doe@example.com",
                         "phone": "7702863154",
-                        "created_at": "2024-11-07T08:29:34.701727+00:00",
-                        "updated_at": "2024-11-07T08:29:34.701845+00:00"
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
                     },
                     "fulfillments": [
                         {
-                            "id": "338690e6-b19b-4ed1-ab27-5a72c03e92b8",
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
                             "type": "Delivery",
                             "end": {
                                 "location": {
-                                    "gps": "12.8870964,77.5734042",
+                                    "gps": "24.8146672,93.8784754",
                                     "address": {
                                         "name": "John's Office",
                                         "building": "Office Block 2",
@@ -743,7 +935,7 @@
                                         "city": "Sample City",
                                         "state": "Sample State",
                                         "country": "IND",
-                                        "area_code": "560078"
+                                        "area_code": "795146"
                                     }
                                 },
                                 "contact": {
@@ -758,35 +950,35 @@
         "on_init": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "on_init",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "on_init",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
                 "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "401188e5-bfeb-4d0f-9c4d-021f6383b4c9",
-                "message_id": "f18635c6-8f51-4070-9ec1-3b3968de67d8",
-                "timestamp": "2024-11-07T08:29:35.909Z",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "add233b8-e982-44e3-b157-1f9a01887cc2",
+                "timestamp": "2024-11-22T11:38:03.842Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "fulfillment_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb",
                             "quantity": {
-                                "count": 5
+                                "count": 1
                             }
                         }
                     ],
@@ -804,13 +996,36 @@
                         "tax_number": "TAX123456",
                         "email": "john.doe@example.com",
                         "phone": "7702863154",
-                        "created_at": "2024-11-07T08:29:34.701727+00:00",
-                        "updated_at": "2024-11-07T08:29:34.701845+00:00"
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
                     },
-                    "fulfillments": [],
+                    "fulfillments": [
+                        {
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "tracking": false,
+                            "type": "Delivery",
+                            "end": {
+                                "location": {
+                                    "gps": "24.8146672,93.8784754",
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    }
+                                },
+                                "contact": {
+                                    "phone": "7702863154"
+                                }
+                            }
+                        }
+                    ],
                     "payment": {
                         "@ondc/org/buyer_app_finder_fee_type": "percent",
-                        "@ondc/org/buyer_app_finder_fee_amount": "5",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
                         "@ondc/org/settlement_details": [
                             {
                                 "settlement_counterparty": "seller-app",
@@ -827,34 +1042,34 @@
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "1550.00"
+                            "value": "1050.00"
                         },
                         "breakup": [
                             {
-                                "@ondc/org/item_id": "4vkgqsSvRZEwywbpMeW2",
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
                                 "@ondc/org/item_quantity": {
-                                    "count": 5
+                                    "count": 1
                                 },
                                 "@ondc/org/title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
+                                "title": "My Test machine",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1500"
+                                    "value": "1030"
                                 },
                                 "item": {
                                     "price": {
                                         "currency": "INR",
-                                        "value": "300"
+                                        "value": "1030"
                                     }
                                 }
                             },
                             {
-                                "@ondc/org/item_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2",
+                                "@ondc/org/item_id": "50077108-c27b-4dda-a74c-a036850238bb",
                                 "title": "Delivery charges",
                                 "@ondc/org/title_type": "delivery",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ],
@@ -870,7 +1085,7 @@
                                 },
                                 {
                                     "code": "provider_tax_number",
-                                    "value": "ABCDE1234F"
+                                    "value": "QWERTYUIOP"
                                 }
                             ]
                         }
@@ -880,23 +1095,23 @@
         },
         "confirm": {
             "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
                 "action": "confirm",
+                "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "city": "std:080",
-                "core_version": "1.2.0",
-                "country": "IND",
-                "domain": "ONDC:AGR10",
-                "message_id": "a7d22fec-1be2-4c67-a3ec-ec74eea26a1b",
-                "transaction_id": "401188e5-bfeb-4d0f-9c4d-021f6383b4c9",
-                "timestamp": "2024-11-07T08:42:52.384751+00:00",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "71b458ab-77bd-4716-b933-192a149817f3",
+                "timestamp": "2024-11-22T11:39:27.168Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "193fed77-4b0b-4180-9afa-ba8fbe4f5565",
+                    "id": "813b110a-ce79-4490-9d85-6d930792943e",
                     "state": "Created",
                     "billing": {
                         "address": {
@@ -911,72 +1126,113 @@
                         "phone": "7702863154",
                         "name": "John Doe",
                         "email": "john.doe@example.com",
-                        "created_at": "2024-11-07T08:29:34.701727+00:00",
-                        "updated_at": "2024-11-07T08:29:34.701845+00:00"
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
                     },
                     "items": [
                         {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
                             "quantity": {
-                                "count": 5
+                                "count": 1
                             },
-                            "fulfillment_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2"
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb"
                         }
                     ],
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
-                    "fulfillments": [],
+                    "fulfillments": [
+                        {
+                            "tat": null,
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "tracking": false,
+                            "end": {
+                                "contact": {
+                                    "phone": "7702863154",
+                                    "email": null
+                                },
+                                "person": {
+                                    "name": ""
+                                },
+                                "location": {
+                                    "gps": "24.8146672,93.8784754",
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    }
+                                }
+                            },
+                            "type": "Delivery"
+                        }
+                    ],
                     "payment": {
                         "uri": "",
                         "tl_method": "",
                         "params": {
-                            "amount": "1550.00",
+                            "amount": "1050.00",
                             "currency": "INR",
                             "transaction_id": ""
                         },
                         "status": "PAID",
                         "type": "ON-ORDER",
-                        "collected_by": "BAP"
+                        "collected_by": "BAP",
+                        "buyer_app_finder_fee_type": "percent",
+                        "buyer_app_finder_fee_amount": 3,
+                        "settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ]
                     },
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "1550.00"
+                            "value": "1050.00"
                         },
                         "breakup": [
                             {
-                                "item_id": "4vkgqsSvRZEwywbpMeW2",
-                                "item_quantity": {
-                                    "count": 5
-                                },
-                                "title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
+                                "item_id": null,
+                                "item_quantity": null,
+                                "title_type": null,
+                                "title": "My Test machine",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1500"
+                                    "value": "1030"
                                 },
                                 "item": {
                                     "currency": "INR",
-                                    "value": "1500"
+                                    "value": "1030"
                                 }
                             },
                             {
-                                "item_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2",
-                                "title_type": "delivery",
+                                "item_id": null,
+                                "item_quantity": null,
+                                "title_type": null,
                                 "title": "Delivery charges",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 },
                                 "item": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ]
@@ -991,51 +1247,51 @@
                                 },
                                 {
                                     "code": "provider_tax_number",
-                                    "value": "ABCDE1234F"
+                                    "value": "QWERTYUIOP"
                                 }
                             ]
                         }
                     ],
-                    "created_at": "2024-11-07T08:42:52.384751+00:00",
-                    "updated_at": "2024-11-07T08:42:52.384751+00:00"
+                    "created_at": "2024-11-22T11:39:27.167926+00:00",
+                    "updated_at": "2024-11-22T11:39:27.167926+00:00"
                 }
             }
         },
         "on_confirm": {
             "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
                 "action": "on_confirm",
+                "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
                 "bpp_uri": "https://preprod-ondc.addble.com/",
-                "city": "std:080",
-                "core_version": "1.2.0",
-                "country": "IND",
-                "domain": "ONDC:AGR10",
-                "message_id": "a7d22fec-1be2-4c67-a3ec-ec74eea26a1b",
-                "transaction_id": "401188e5-bfeb-4d0f-9c4d-021f6383b4c9",
-                "timestamp": "2024-11-07T08:42:53.867Z",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "71b458ab-77bd-4716-b933-192a149817f3",
+                "timestamp": "2024-11-22T11:39:28.506Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "193fed77-4b0b-4180-9afa-ba8fbe4f5565",
-                    "state": "Accepted",
+                    "id": "813b110a-ce79-4490-9d85-6d930792943e",
+                    "state": "Created",
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
                             "quantity": {
-                                "count": 5
+                                "count": 1
                             },
-                            "fulfillment_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2"
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb"
                         }
                     ],
                     "billing": {
@@ -1051,13 +1307,16 @@
                         "phone": "7702863154",
                         "name": "John Doe",
                         "email": "john.doe@example.com",
-                        "created_at": "2024-11-07T08:29:34.701727+00:00",
-                        "updated_at": "2024-11-07T08:29:34.701845+00:00"
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
                     },
                     "fulfillments": [
                         {
-                            "@ondc/org/provider_name": "Farmigo Agro Tech",
-                            "@ondc/org/TAT": "P1DT3H",
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "type": "Delivery",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
+                            "tracking": false,
+                            "@ondc/org/TAT": "PT8H",
                             "state": {
                                 "descriptor": {
                                     "code": "Pending"
@@ -1065,33 +1324,49 @@
                             },
                             "start": {
                                 "location": {
-                                    "id": "7kZu3N7P57bFinuL1yha",
+                                    "id": "4jCjKEGVSOOOWeJ8Flwo",
                                     "descriptor": {
-                                        "name": "Farmigo Agro Tech"
+                                        "name": "PLANTIX TEST"
                                     },
-                                    "gps": "12.91348965368409,77.63762354850769",
+                                    "gps": "24.814414,93.878926",
                                     "address": {
-                                        "locality": "HSR Layout",
-                                        "city": "BENGALURU URBAN",
-                                        "area_code": "560102",
-                                        "state": "Karnataka"
+                                        "locality": "BIR TIKENDRAJIT MEMORIAL COMPLEX LAMSANG SUB DIVISION",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
                                     }
                                 },
                                 "contact": {
-                                    "phone": "9954780440"
+                                    "phone": "0000000000"
                                 },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T08:42:52.384Z",
-                                        "end": "2024-11-08T09:27:52.384Z"
+                                        "start": "2024-11-22T15:39:27.168Z",
+                                        "end": "2024-11-22T16:24:27.168Z"
                                     }
                                 }
                             },
                             "end": {
+                                "location": {
+                                    "gps": "24.8146672,93.8784754",
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    }
+                                },
+                                "contact": {
+                                    "phone": "7702863154",
+                                    "email": null
+                                },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T11:42:52.384Z",
-                                        "end": "2024-11-08T12:27:52.384Z"
+                                        "start": "2024-11-22T19:39:27.168Z",
+                                        "end": "2024-11-22T20:24:27.168Z"
                                     }
                                 }
                             }
@@ -1100,36 +1375,35 @@
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "1550.00"
+                            "value": "1050.00"
                         },
                         "breakup": [
                             {
-                                "item_id": "4vkgqsSvRZEwywbpMeW2",
-                                "item_quantity": {
-                                    "count": 5
-                                },
-                                "title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
+                                "item_id": null,
+                                "item_quantity": null,
+                                "title_type": null,
+                                "title": "My Test machine",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1500"
+                                    "value": "1030"
                                 },
                                 "item": {
                                     "currency": "INR",
-                                    "value": "1500"
+                                    "value": "1030"
                                 }
                             },
                             {
-                                "item_id": "a960ae58-9c5d-4556-9a90-bdf5f99ba3f2",
-                                "title_type": "delivery",
+                                "item_id": null,
+                                "item_quantity": null,
+                                "title_type": null,
                                 "title": "Delivery charges",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 },
                                 "item": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ]
@@ -1138,13 +1412,27 @@
                         "uri": "",
                         "tl_method": "",
                         "params": {
-                            "amount": "1550.00",
+                            "amount": "1050.00",
                             "currency": "INR",
                             "transaction_id": ""
                         },
                         "status": "PAID",
                         "type": "ON-ORDER",
-                        "collected_by": "BAP"
+                        "collected_by": "BAP",
+                        "buyer_app_finder_fee_type": "percent",
+                        "buyer_app_finder_fee_amount": 3,
+                        "settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ]
                     },
                     "tags": [
                         {
@@ -1156,7 +1444,7 @@
                                 },
                                 {
                                     "code": "provider_tax_number",
-                                    "value": "ABCDE1234F"
+                                    "value": "QWERTYUIOP"
                                 },
                                 {
                                     "code": "np_type",
@@ -1165,8 +1453,975 @@
                             ]
                         }
                     ],
-                    "created_at": "2024-11-07T08:42:52.384751+00:00",
-                    "updated_at": "2024-11-07T08:42:53.867Z"
+                    "created_at": "2024-11-22T11:39:27.167926+00:00",
+                    "updated_at": "2024-11-22T11:39:28.506Z"
+                }
+            }
+        },
+        "on_status_pending": {
+            "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
+                "action": "on_status",
+                "core_version": "1.2.0",
+                "bap_id": "onca.dev.peat-cloud.com",
+                "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
+                "bpp_id": "preprod-ondc.addble.com",
+                "bpp_uri": "https://preprod-ondc.addble.com/",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "4361715e-92be-4761-998c-c87ddb2dc355",
+                "timestamp": "2024-11-22T11:45:31.544Z",
+                "ttl": "PT30S"
+            },
+            "message": {
+                "order": {
+                    "id": "813b110a-ce79-4490-9d85-6d930792943e",
+                    "state": "Accepted",
+                    "provider": {
+                        "id": "otJQetBqULjdFiys1IKa",
+                        "locations": [
+                            {
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "quantity": {
+                                "count": 1
+                            }
+                        }
+                    ],
+                    "billing": {
+                        "name": "John Doe",
+                        "address": {
+                            "name": "John's Home",
+                            "building": "Apt 101",
+                            "locality": "Main St",
+                            "city": "Sample City",
+                            "state": "Sample State",
+                            "country": "IND",
+                            "area_code": "123456"
+                        },
+                        "tax_number": "TAX123456",
+                        "email": "john.doe@example.com",
+                        "phone": "7702863154",
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
+                    },
+                    "fulfillments": [
+                        {
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "type": "Delivery",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
+                            "tracking": false,
+                            "@ondc/org/TAT": "PT8H",
+                            "state": {
+                                "descriptor": {
+                                    "code": "Pending"
+                                }
+                            },
+                            "start": {
+                                "location": {
+                                    "descriptor": {
+                                        "name": "Plantix Test Location Name",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg"
+                                        ]
+                                    },
+                                    "gps": "24.814414,93.878926",
+                                    "address": {
+                                        "locality": "BIR TIKENDRAJIT MEMORIAL COMPLEX LAMSANG SUB DIVISION",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
+                                    }
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T15:39:27.168Z",
+                                        "end": "2024-11-22T16:24:27.168Z"
+                                    }
+                                },
+                                "contact": {
+                                    "phone": "0000000000",
+                                    "email": "plantix@addble.com"
+                                }
+                            },
+                            "end": {
+                                "location": {
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    },
+                                    "gps": "24.8146672,93.8784754"
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T19:39:27.168Z",
+                                        "end": "2024-11-22T20:24:27.168Z"
+                                    }
+                                },
+                                "person": {
+                                    "name": ""
+                                },
+                                "contact": {
+                                    "phone": "7702863154"
+                                }
+                            },
+                            "tags": []
+                        }
+                    ],
+                    "quote": {
+                        "price": {
+                            "currency": "INR",
+                            "value": "1050.00"
+                        },
+                        "breakup": [
+                            {
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
+                                "@ondc/org/item_quantity": {
+                                    "count": 1
+                                },
+                                "@ondc/org/title_type": "item",
+                                "title": "My Test machine",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "1030"
+                                },
+                                "item": {
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "1030"
+                                    }
+                                }
+                            },
+                            {
+                                "@ondc/org/item_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                                "title": "Delivery charges",
+                                "@ondc/org/title_type": "delivery",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "20"
+                                }
+                            }
+                        ],
+                        "ttl": "P1D"
+                    },
+                    "payment": {
+                        "@ondc/org/buyer_app_finder_fee_type": "percent",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
+                        "@ondc/org/settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ],
+                        "uri": "",
+                        "tl_method": "",
+                        "params": {
+                            "amount": "1050.00",
+                            "currency": "INR",
+                            "transaction_id": ""
+                        },
+                        "status": "PAID",
+                        "type": "ON-ORDER",
+                        "collected_by": "BAP"
+                    },
+                    "created_at": "2024-11-22T11:39:27.167926+00:00",
+                    "updated_at": "2024-11-22T11:45:31.544Z"
+                }
+            }
+        },
+        "on_status_packed": {
+            "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
+                "action": "on_status",
+                "core_version": "1.2.0",
+                "bap_id": "onca.dev.peat-cloud.com",
+                "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
+                "bpp_id": "preprod-ondc.addble.com",
+                "bpp_uri": "https://preprod-ondc.addble.com/",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "f9896bf5-06f7-43e3-a5b9-cacca12ae178",
+                "timestamp": "2024-11-22T11:46:20.291Z",
+                "ttl": "PT30S"
+            },
+            "message": {
+                "order": {
+                    "id": "813b110a-ce79-4490-9d85-6d930792943e",
+                    "state": "In-progress",
+                    "provider": {
+                        "id": "otJQetBqULjdFiys1IKa",
+                        "locations": [
+                            {
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "quantity": {
+                                "count": 1
+                            }
+                        }
+                    ],
+                    "billing": {
+                        "name": "John Doe",
+                        "address": {
+                            "name": "John's Home",
+                            "building": "Apt 101",
+                            "locality": "Main St",
+                            "city": "Sample City",
+                            "state": "Sample State",
+                            "country": "IND",
+                            "area_code": "123456"
+                        },
+                        "tax_number": "TAX123456",
+                        "email": "john.doe@example.com",
+                        "phone": "7702863154",
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
+                    },
+                    "fulfillments": [
+                        {
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "type": "Delivery",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
+                            "tracking": false,
+                            "@ondc/org/TAT": "PT8H",
+                            "state": {
+                                "descriptor": {
+                                    "code": "Packed"
+                                }
+                            },
+                            "start": {
+                                "location": {
+                                    "descriptor": {
+                                        "name": "Plantix Test Location Name",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg"
+                                        ]
+                                    },
+                                    "gps": "24.814414,93.878926",
+                                    "address": {
+                                        "locality": "BIR TIKENDRAJIT MEMORIAL COMPLEX LAMSANG SUB DIVISION",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
+                                    }
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T15:39:27.168Z",
+                                        "end": "2024-11-22T16:24:27.168Z"
+                                    }
+                                },
+                                "contact": {
+                                    "phone": "0000000000",
+                                    "email": "plantix@addble.com"
+                                }
+                            },
+                            "end": {
+                                "location": {
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    },
+                                    "gps": "24.8146672,93.8784754"
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T19:39:27.168Z",
+                                        "end": "2024-11-22T20:24:27.168Z"
+                                    }
+                                },
+                                "person": {
+                                    "name": ""
+                                },
+                                "contact": {
+                                    "phone": "7702863154"
+                                }
+                            },
+                            "tags": []
+                        }
+                    ],
+                    "quote": {
+                        "price": {
+                            "currency": "INR",
+                            "value": "1050.00"
+                        },
+                        "breakup": [
+                            {
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
+                                "@ondc/org/item_quantity": {
+                                    "count": 1
+                                },
+                                "@ondc/org/title_type": "item",
+                                "title": "My Test machine",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "1030"
+                                },
+                                "item": {
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "1030"
+                                    }
+                                }
+                            },
+                            {
+                                "@ondc/org/item_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                                "title": "Delivery charges",
+                                "@ondc/org/title_type": "delivery",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "20"
+                                }
+                            }
+                        ],
+                        "ttl": "P1D"
+                    },
+                    "payment": {
+                        "@ondc/org/buyer_app_finder_fee_type": "percent",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
+                        "@ondc/org/settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ],
+                        "uri": "",
+                        "tl_method": "",
+                        "params": {
+                            "amount": "1050.00",
+                            "currency": "INR",
+                            "transaction_id": ""
+                        },
+                        "status": "PAID",
+                        "type": "ON-ORDER",
+                        "collected_by": "BAP"
+                    },
+                    "created_at": "2024-11-22T11:39:27.167926+00:00",
+                    "updated_at": "2024-11-22T11:46:20.291Z"
+                }
+            }
+        },
+        "on_status_picked": {
+            "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
+                "action": "on_status",
+                "core_version": "1.2.0",
+                "bap_id": "onca.dev.peat-cloud.com",
+                "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
+                "bpp_id": "preprod-ondc.addble.com",
+                "bpp_uri": "https://preprod-ondc.addble.com/",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "3d3a1db2-8c64-483d-bad8-92636d796a47",
+                "timestamp": "2024-11-22T11:47:06.413Z",
+                "ttl": "PT30S"
+            },
+            "message": {
+                "order": {
+                    "id": "813b110a-ce79-4490-9d85-6d930792943e",
+                    "state": "In-progress",
+                    "provider": {
+                        "id": "otJQetBqULjdFiys1IKa",
+                        "locations": [
+                            {
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "quantity": {
+                                "count": 1
+                            }
+                        }
+                    ],
+                    "billing": {
+                        "name": "John Doe",
+                        "address": {
+                            "name": "John's Home",
+                            "building": "Apt 101",
+                            "locality": "Main St",
+                            "city": "Sample City",
+                            "state": "Sample State",
+                            "country": "IND",
+                            "area_code": "123456"
+                        },
+                        "tax_number": "TAX123456",
+                        "email": "john.doe@example.com",
+                        "phone": "7702863154",
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
+                    },
+                    "fulfillments": [
+                        {
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "type": "Delivery",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
+                            "tracking": false,
+                            "@ondc/org/TAT": "PT8H",
+                            "state": {
+                                "descriptor": {
+                                    "code": "Order-picked-up"
+                                }
+                            },
+                            "start": {
+                                "location": {
+                                    "descriptor": {
+                                        "name": "Plantix Test Location Name",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg"
+                                        ]
+                                    },
+                                    "gps": "24.814414,93.878926",
+                                    "address": {
+                                        "locality": "BIR TIKENDRAJIT MEMORIAL COMPLEX LAMSANG SUB DIVISION",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
+                                    }
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T15:39:27.168Z",
+                                        "end": "2024-11-22T16:24:27.168Z"
+                                    },
+                                    "timestamp": "2024-11-22T11:47:06.413Z"
+                                },
+                                "contact": {
+                                    "phone": "0000000000",
+                                    "email": "plantix@addble.com"
+                                }
+                            },
+                            "end": {
+                                "location": {
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    },
+                                    "gps": "24.8146672,93.8784754"
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T19:39:27.168Z",
+                                        "end": "2024-11-22T20:24:27.168Z"
+                                    }
+                                },
+                                "person": {
+                                    "name": ""
+                                },
+                                "contact": {
+                                    "phone": "7702863154"
+                                }
+                            },
+                            "tags": []
+                        }
+                    ],
+                    "quote": {
+                        "price": {
+                            "currency": "INR",
+                            "value": "1050.00"
+                        },
+                        "breakup": [
+                            {
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
+                                "@ondc/org/item_quantity": {
+                                    "count": 1
+                                },
+                                "@ondc/org/title_type": "item",
+                                "title": "My Test machine",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "1030"
+                                },
+                                "item": {
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "1030"
+                                    }
+                                }
+                            },
+                            {
+                                "@ondc/org/item_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                                "title": "Delivery charges",
+                                "@ondc/org/title_type": "delivery",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "20"
+                                }
+                            }
+                        ],
+                        "ttl": "P1D"
+                    },
+                    "payment": {
+                        "@ondc/org/buyer_app_finder_fee_type": "percent",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
+                        "@ondc/org/settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ],
+                        "uri": "",
+                        "tl_method": "",
+                        "params": {
+                            "amount": "1050.00",
+                            "currency": "INR",
+                            "transaction_id": ""
+                        },
+                        "status": "PAID",
+                        "type": "ON-ORDER",
+                        "collected_by": "BAP"
+                    },
+                    "created_at": "2024-11-22T11:39:27.167926+00:00",
+                    "updated_at": "2024-11-22T11:47:06.413Z",
+                    "documents": [
+                        {
+                            "url": "https://preprod-invoices.addble.com/v1/ondc/813b110a-ce79-4490-9d85-6d930792943e",
+                            "label": "Invoice"
+                        }
+                    ]
+                }
+            }
+        },
+        "on_status_out_for_delivery": {
+            "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
+                "action": "on_status",
+                "core_version": "1.2.0",
+                "bap_id": "onca.dev.peat-cloud.com",
+                "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
+                "bpp_id": "preprod-ondc.addble.com",
+                "bpp_uri": "https://preprod-ondc.addble.com/",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "44cb900a-774e-400e-a445-4255fa5056c5",
+                "timestamp": "2024-11-22T11:47:38.471Z",
+                "ttl": "PT30S"
+            },
+            "message": {
+                "order": {
+                    "id": "813b110a-ce79-4490-9d85-6d930792943e",
+                    "state": "In-progress",
+                    "provider": {
+                        "id": "otJQetBqULjdFiys1IKa",
+                        "locations": [
+                            {
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "quantity": {
+                                "count": 1
+                            }
+                        }
+                    ],
+                    "billing": {
+                        "name": "John Doe",
+                        "address": {
+                            "name": "John's Home",
+                            "building": "Apt 101",
+                            "locality": "Main St",
+                            "city": "Sample City",
+                            "state": "Sample State",
+                            "country": "IND",
+                            "area_code": "123456"
+                        },
+                        "tax_number": "TAX123456",
+                        "email": "john.doe@example.com",
+                        "phone": "7702863154",
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
+                    },
+                    "fulfillments": [
+                        {
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "type": "Delivery",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
+                            "tracking": false,
+                            "@ondc/org/TAT": "PT8H",
+                            "state": {
+                                "descriptor": {
+                                    "code": "Out-for-delivery"
+                                }
+                            },
+                            "start": {
+                                "location": {
+                                    "descriptor": {
+                                        "name": "Plantix Test Location Name",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg"
+                                        ]
+                                    },
+                                    "gps": "24.814414,93.878926",
+                                    "address": {
+                                        "locality": "BIR TIKENDRAJIT MEMORIAL COMPLEX LAMSANG SUB DIVISION",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
+                                    }
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T15:39:27.168Z",
+                                        "end": "2024-11-22T16:24:27.168Z"
+                                    },
+                                    "timestamp": "2024-11-22T11:47:06.413Z"
+                                },
+                                "contact": {
+                                    "phone": "0000000000",
+                                    "email": "plantix@addble.com"
+                                }
+                            },
+                            "end": {
+                                "location": {
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    },
+                                    "gps": "24.8146672,93.8784754"
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T19:39:27.168Z",
+                                        "end": "2024-11-22T20:24:27.168Z"
+                                    }
+                                },
+                                "person": {
+                                    "name": ""
+                                },
+                                "contact": {
+                                    "phone": "7702863154"
+                                }
+                            },
+                            "tags": []
+                        }
+                    ],
+                    "quote": {
+                        "price": {
+                            "currency": "INR",
+                            "value": "1050.00"
+                        },
+                        "breakup": [
+                            {
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
+                                "@ondc/org/item_quantity": {
+                                    "count": 1
+                                },
+                                "@ondc/org/title_type": "item",
+                                "title": "My Test machine",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "1030"
+                                },
+                                "item": {
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "1030"
+                                    }
+                                }
+                            },
+                            {
+                                "@ondc/org/item_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                                "title": "Delivery charges",
+                                "@ondc/org/title_type": "delivery",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "20"
+                                }
+                            }
+                        ],
+                        "ttl": "P1D"
+                    },
+                    "payment": {
+                        "@ondc/org/buyer_app_finder_fee_type": "percent",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
+                        "@ondc/org/settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ],
+                        "uri": "",
+                        "tl_method": "",
+                        "params": {
+                            "amount": "1050.00",
+                            "currency": "INR",
+                            "transaction_id": ""
+                        },
+                        "status": "PAID",
+                        "type": "ON-ORDER",
+                        "collected_by": "BAP"
+                    },
+                    "created_at": "2024-11-22T11:39:27.167926+00:00",
+                    "updated_at": "2024-11-22T11:47:38.471Z",
+                    "documents": [
+                        {
+                            "url": "https://preprod-invoices.addble.com/v1/ondc/813b110a-ce79-4490-9d85-6d930792943e",
+                            "label": "Invoice"
+                        }
+                    ]
+                }
+            }
+        },
+        "on_status_delivered": {
+            "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
+                "action": "on_status",
+                "core_version": "1.2.0",
+                "bap_id": "onca.dev.peat-cloud.com",
+                "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
+                "bpp_id": "preprod-ondc.addble.com",
+                "bpp_uri": "https://preprod-ondc.addble.com/",
+                "transaction_id": "ac7ef453-4747-4696-8419-318d78be0573",
+                "message_id": "f921080e-929a-4af6-b0de-4a546e68e20f",
+                "timestamp": "2024-11-22T11:48:09.641Z",
+                "ttl": "PT30S"
+            },
+            "message": {
+                "order": {
+                    "id": "813b110a-ce79-4490-9d85-6d930792943e",
+                    "state": "Completed",
+                    "provider": {
+                        "id": "otJQetBqULjdFiys1IKa",
+                        "locations": [
+                            {
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "quantity": {
+                                "count": 1
+                            }
+                        }
+                    ],
+                    "billing": {
+                        "name": "John Doe",
+                        "address": {
+                            "name": "John's Home",
+                            "building": "Apt 101",
+                            "locality": "Main St",
+                            "city": "Sample City",
+                            "state": "Sample State",
+                            "country": "IND",
+                            "area_code": "123456"
+                        },
+                        "tax_number": "TAX123456",
+                        "email": "john.doe@example.com",
+                        "phone": "7702863154",
+                        "created_at": "2024-11-22T11:38:02.826646+00:00",
+                        "updated_at": "2024-11-22T11:38:02.826761+00:00"
+                    },
+                    "fulfillments": [
+                        {
+                            "id": "50077108-c27b-4dda-a74c-a036850238bb",
+                            "type": "Delivery",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
+                            "tracking": false,
+                            "@ondc/org/TAT": "PT8H",
+                            "state": {
+                                "descriptor": {
+                                    "code": "Order-delivered"
+                                }
+                            },
+                            "start": {
+                                "location": {
+                                    "descriptor": {
+                                        "name": "Plantix Test Location Name",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg"
+                                        ]
+                                    },
+                                    "gps": "24.814414,93.878926",
+                                    "address": {
+                                        "locality": "BIR TIKENDRAJIT MEMORIAL COMPLEX LAMSANG SUB DIVISION",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
+                                    }
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T15:39:27.168Z",
+                                        "end": "2024-11-22T16:24:27.168Z"
+                                    },
+                                    "timestamp": "2024-11-22T11:47:06.413Z"
+                                },
+                                "contact": {
+                                    "phone": "0000000000",
+                                    "email": "plantix@addble.com"
+                                }
+                            },
+                            "end": {
+                                "location": {
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    },
+                                    "gps": "24.8146672,93.8784754"
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T19:39:27.168Z",
+                                        "end": "2024-11-22T20:24:27.168Z"
+                                    },
+                                    "timestamp": "2024-11-22T11:48:09.641Z"
+                                },
+                                "person": {
+                                    "name": ""
+                                },
+                                "contact": {
+                                    "phone": "7702863154"
+                                }
+                            },
+                            "tags": []
+                        }
+                    ],
+                    "quote": {
+                        "price": {
+                            "currency": "INR",
+                            "value": "1050.00"
+                        },
+                        "breakup": [
+                            {
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
+                                "@ondc/org/item_quantity": {
+                                    "count": 1
+                                },
+                                "@ondc/org/title_type": "item",
+                                "title": "My Test machine",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "1030"
+                                },
+                                "item": {
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "1030"
+                                    }
+                                }
+                            },
+                            {
+                                "@ondc/org/item_id": "50077108-c27b-4dda-a74c-a036850238bb",
+                                "title": "Delivery charges",
+                                "@ondc/org/title_type": "delivery",
+                                "price": {
+                                    "currency": "INR",
+                                    "value": "20"
+                                }
+                            }
+                        ],
+                        "ttl": "P1D"
+                    },
+                    "payment": {
+                        "@ondc/org/buyer_app_finder_fee_type": "percent",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
+                        "@ondc/org/settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ],
+                        "uri": "",
+                        "tl_method": "",
+                        "params": {
+                            "amount": "1050.00",
+                            "currency": "INR",
+                            "transaction_id": ""
+                        },
+                        "status": "PAID",
+                        "type": "ON-ORDER",
+                        "collected_by": "BAP"
+                    },
+                    "created_at": "2024-11-22T11:39:27.167926+00:00",
+                    "updated_at": "2024-11-22T11:48:09.641Z",
+                    "documents": [
+                        {
+                            "url": "https://preprod-invoices.addble.com/v1/ondc/813b110a-ce79-4490-9d85-6d930792943e",
+                            "label": "Invoice"
+                        }
+                    ]
                 }
             }
         }
