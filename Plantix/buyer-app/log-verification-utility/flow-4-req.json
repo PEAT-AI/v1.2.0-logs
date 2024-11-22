@@ -8,14 +8,14 @@
             "context": {
                 "domain": "ONDC:AGR10",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
                 "action": "search",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
-                "transaction_id": "91c28673-8a23-4f8b-8484-835331be724e",
-                "message_id": "81461f9a-2ec4-4b9c-a3fb-f5c16871af73",
-                "timestamp": "2024-11-06T12:35:00.704535+00:00Z",
+                "transaction_id": "71f4c53a-dfb7-43f6-8e9e-98f02efbd2dc",
+                "message_id": "25e99107-d80d-4333-a507-444198bd4b90",
+                "timestamp": "2024-11-21T11:11:02.406Z",
                 "ttl": "PT30S"
             },
             "message": {
@@ -52,14 +52,14 @@
             "context": {
                 "domain": "ONDC:AGR10",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
                 "action": "on_search",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
-                "transaction_id": "91c28673-8a23-4f8b-8484-835331be724e",
-                "message_id": "81461f9a-2ec4-4b9c-a3fb-f5c16871af73",
-                "timestamp": "2024-11-06T12:35:03.817Z",
+                "transaction_id": "71f4c53a-dfb7-43f6-8e9e-98f02efbd2dc",
+                "message_id": "25e99107-d80d-4333-a507-444198bd4b90",
+                "timestamp": "2024-11-21T11:11:16.562Z",
                 "ttl": "PT30S",
                 "bpp_id": "preprod-ondc.addble.com",
                 "bpp_uri": "https://preprod-ondc.addble.com/"
@@ -98,42 +98,42 @@
                     },
                     "bpp/providers": [
                         {
-                            "id": "UBzw4QGewWquuLE8brUS",
+                            "id": "otJQetBqULjdFiys1IKa",
                             "time": {
                                 "label": "enable",
-                                "timestamp": "2024-11-06T12:35:03.817Z"
+                                "timestamp": "2024-11-21T11:11:16.562Z"
                             },
                             "descriptor": {
-                                "name": "Syngenta World",
-                                "symbol": "https://media.istockphoto.com/id/1172109385/vector/pharmacy-cross-initial-ss-design-inspiration.jpg?s=1024x1024&w=is&k=20&c=4mjXZRSIaKpAV7MoqUiHLp1L1PzC1ojIfPR1X5sHFsc=",
-                                "short_desc": "Syngenta World",
-                                "long_desc": "Syngenta World",
+                                "name": "PLANTIX TEST",
+                                "symbol": "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg",
+                                "short_desc": "PLANTIX TEST",
+                                "long_desc": "PLANTIX TEST",
                                 "images": [
-                                    "https://media.istockphoto.com/id/1172109385/vector/pharmacy-cross-initial-ss-design-inspiration.jpg?s=1024x1024&w=is&k=20&c=4mjXZRSIaKpAV7MoqUiHLp1L1PzC1ojIfPR1X5sHFsc="
+                                    "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg"
                                 ]
                             },
                             "locations": [
                                 {
-                                    "id": "EOKJBqid0zecXCvyQBCR",
-                                    "gps": "12.91414122848031, 77.63768276727586",
+                                    "id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "gps": "24.814414, 93.878926",
                                     "address": {
-                                        "locality": "14th Main Road",
-                                        "street": "14th Main Road",
-                                        "city": "BENGALURU",
-                                        "area_code": "560102",
-                                        "state": "Karnataka"
+                                        "locality": "UK Road",
+                                        "street": "UK Road",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
                                     },
                                     "time": {
                                         "days": "1,2,3,4,5,6,7",
+                                        "schedule": {
+                                            "holidays": []
+                                        },
                                         "range": {
                                             "start": "0000",
                                             "end": "2359"
                                         },
-                                        "schedule": {
-                                            "holidays": []
-                                        },
                                         "label": "enable",
-                                        "timestamp": "2024-11-06T12:35:03.812Z"
+                                        "timestamp": "2024-11-21T11:11:16.552Z"
                                     }
                                 }
                             ],
@@ -143,23 +143,73 @@
                                     "list": [
                                         {
                                             "code": "location",
-                                            "value": "EOKJBqid0zecXCvyQBCR"
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
                                         },
                                         {
                                             "code": "category",
-                                            "value": "Seed"
+                                            "value": "Fertilizer"
                                         },
                                         {
                                             "code": "type",
-                                            "value": "10"
+                                            "value": "12"
                                         },
                                         {
                                             "code": "val",
-                                            "value": "5000"
+                                            "value": "IND"
                                         },
                                         {
                                             "code": "unit",
-                                            "value": "km"
+                                            "value": "country"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "serviceability",
+                                    "list": [
+                                        {
+                                            "code": "location",
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
+                                        },
+                                        {
+                                            "code": "category",
+                                            "value": "Pesticide"
+                                        },
+                                        {
+                                            "code": "type",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "code": "val",
+                                            "value": "IND"
+                                        },
+                                        {
+                                            "code": "unit",
+                                            "value": "country"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "code": "serviceability",
+                                    "list": [
+                                        {
+                                            "code": "location",
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
+                                        },
+                                        {
+                                            "code": "category",
+                                            "value": "Tools and Machinery"
+                                        },
+                                        {
+                                            "code": "type",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "code": "val",
+                                            "value": "IND"
+                                        },
+                                        {
+                                            "code": "unit",
+                                            "value": "country"
                                         }
                                     ]
                                 },
@@ -172,7 +222,7 @@
                                         },
                                         {
                                             "code": "location",
-                                            "value": "EOKJBqid0zecXCvyQBCR"
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
                                         },
                                         {
                                             "code": "day_from",
@@ -201,7 +251,7 @@
                                         },
                                         {
                                             "code": "location",
-                                            "value": "EOKJBqid0zecXCvyQBCR"
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
                                         },
                                         {
                                             "code": "day_from",
@@ -230,7 +280,7 @@
                                         },
                                         {
                                             "code": "location",
-                                            "value": "EOKJBqid0zecXCvyQBCR"
+                                            "value": "4jCjKEGVSOOOWeJ8Flwo"
                                         },
                                         {
                                             "code": "day_from",
@@ -254,50 +304,50 @@
                             "categories": [],
                             "items": [
                                 {
-                                    "id": "1htOfSnGRJczHdedQNaw",
+                                    "id": "6qEZUv7ck2TTYlFpFWgq",
                                     "time": {
                                         "label": "enable",
-                                        "timestamp": "2024-08-07T10:53:03.910Z"
+                                        "timestamp": "2024-11-21T11:00:17.815Z"
                                     },
                                     "descriptor": {
-                                        "name": "Veg Seeds - 250 gm - 250 gm - 1 Pack",
-                                        "code": "5:1htOfSnGRJczHdedQNaw",
-                                        "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/front_1htOfSnGRJczHdedQNaw_900x900.png",
-                                        "short_desc": "Veg Seeds 1 Pack",
-                                        "long_desc": "Veg Seeds 1 Pack",
+                                        "name": "Test fertilizer - 2 gm",
+                                        "code": "5:6qEZUv7ck2TTYlFpFWgq",
+                                        "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/front_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg",
+                                        "short_desc": "Test fertilizer 2 unit",
+                                        "long_desc": "Test fertilizer description",
                                         "images": [
-                                            "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/front_1htOfSnGRJczHdedQNaw_900x900.png",
-                                            "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/back_1htOfSnGRJczHdedQNaw_900x900.png"
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/front_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg",
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/back_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg"
                                         ]
                                     },
                                     "price": {
                                         "currency": "INR",
-                                        "value": "40.00",
-                                        "maximum_value": "40.00"
+                                        "value": "800.00",
+                                        "maximum_value": "900.00"
                                     },
-                                    "category_id": "Seed",
+                                    "category_id": "Fertilizer",
                                     "fulfillment_id": "F1",
-                                    "location_id": "EOKJBqid0zecXCvyQBCR",
-                                    "@ondc/org/returnable": true,
-                                    "@ondc/org/cancellable": true,
-                                    "@ondc/org/contact_details_consumer_care": "Jane Doe, adden.company@gmail.com, 6362944815",
+                                    "location_id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "@ondc/org/returnable": false,
+                                    "@ondc/org/cancellable": false,
+                                    "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
                                     "@ondc/org/time_to_ship": "PT4H",
                                     "recommended": true,
                                     "quantity": {
                                         "unitized": {
                                             "measure": {
                                                 "unit": "gram",
-                                                "value": "250"
+                                                "value": "2"
                                             }
                                         },
                                         "available": {
-                                            "count": "99"
+                                            "count": "0"
                                         },
                                         "maximum": {
-                                            "count": "99"
+                                            "count": "0"
                                         }
                                     },
-                                    "@ondc/org/return_window": "P7D",
+                                    "@ondc/org/return_window": "P1D",
                                     "@ondc/org/seller_pickup_return": false,
                                     "@ondc/org/available_on_cod": false,
                                     "tags": [
@@ -315,7 +365,143 @@
                                             "list": [
                                                 {
                                                     "code": "brand",
-                                                    "value": "SYNGENTA"
+                                                    "value": "Test fertilizer brand"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "WkM0I3RIFbcHeLJxUceY",
+                                    "time": {
+                                        "label": "enable",
+                                        "timestamp": "2024-11-07T13:09:23.165Z"
+                                    },
+                                    "descriptor": {
+                                        "name": "Green Racer Bio-Pesticide - 100 mL",
+                                        "code": "5:WkM0I3RIFbcHeLJxUceY",
+                                        "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/front_WkM0I3RIFbcHeLJxUceY_900x900.jpeg",
+                                        "short_desc": "Green Racer Bio-Pesticide 1 unit",
+                                        "long_desc": "Green Racer is a bio-pesticide formulated with Beauveria bassiana, a naturally occurring fungus. It is effective in controlling a wide range of pests, including caterpillars, whiteflies, mealybugs, and aphids. To use, mix the recommended amount of Green Racer in water and apply it to your plants. It is important to follow the instructions on the product label for safe and effective use.",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/front_WkM0I3RIFbcHeLJxUceY_900x900.jpeg",
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/back_WkM0I3RIFbcHeLJxUceY_900x900.jpeg"
+                                        ]
+                                    },
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "150.00",
+                                        "maximum_value": "150.00"
+                                    },
+                                    "category_id": "Pesticide",
+                                    "fulfillment_id": "F1",
+                                    "location_id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "@ondc/org/returnable": false,
+                                    "@ondc/org/cancellable": false,
+                                    "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
+                                    "@ondc/org/time_to_ship": "PT4H",
+                                    "recommended": true,
+                                    "quantity": {
+                                        "unitized": {
+                                            "measure": {
+                                                "unit": "millilitre",
+                                                "value": "100"
+                                            }
+                                        },
+                                        "available": {
+                                            "count": "99"
+                                        },
+                                        "maximum": {
+                                            "count": "99"
+                                        }
+                                    },
+                                    "@ondc/org/return_window": "P1D",
+                                    "@ondc/org/seller_pickup_return": false,
+                                    "@ondc/org/available_on_cod": false,
+                                    "tags": [
+                                        {
+                                            "code": "origin",
+                                            "list": [
+                                                {
+                                                    "code": "country",
+                                                    "value": "IND"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "code": "attribute",
+                                            "list": [
+                                                {
+                                                    "code": "brand",
+                                                    "value": "PLANTIX"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Ys3dWuXU3W8sUVAvxIei",
+                                    "time": {
+                                        "label": "enable",
+                                        "timestamp": "2024-11-19T09:31:35.882Z"
+                                    },
+                                    "descriptor": {
+                                        "name": "My Test machine - 1 kg - 1 kg - My net content description",
+                                        "code": "5:Ys3dWuXU3W8sUVAvxIei",
+                                        "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/front_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg",
+                                        "short_desc": "My Test machine My net content description",
+                                        "long_desc": "My test description",
+                                        "images": [
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/front_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg",
+                                            "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/back_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg"
+                                        ]
+                                    },
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "1030.00",
+                                        "maximum_value": "1530.00"
+                                    },
+                                    "category_id": "Tools and Machinery",
+                                    "fulfillment_id": "F1",
+                                    "location_id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "@ondc/org/returnable": false,
+                                    "@ondc/org/cancellable": false,
+                                    "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
+                                    "@ondc/org/time_to_ship": "PT4H",
+                                    "recommended": true,
+                                    "quantity": {
+                                        "unitized": {
+                                            "measure": {
+                                                "unit": "kilogram",
+                                                "value": "1"
+                                            }
+                                        },
+                                        "available": {
+                                            "count": "99"
+                                        },
+                                        "maximum": {
+                                            "count": "2"
+                                        }
+                                    },
+                                    "@ondc/org/return_window": "P1D",
+                                    "@ondc/org/seller_pickup_return": false,
+                                    "@ondc/org/available_on_cod": false,
+                                    "tags": [
+                                        {
+                                            "code": "origin",
+                                            "list": [
+                                                {
+                                                    "code": "country",
+                                                    "value": "IND"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "code": "attribute",
+                                            "list": [
+                                                {
+                                                    "code": "brand",
+                                                    "value": "My Test Brand"
                                                 }
                                             ]
                                         }
@@ -327,16 +513,16 @@
                                     "id": "F1",
                                     "type": "Delivery",
                                     "contact": {
-                                        "phone": "9954780440",
-                                        "email": "jane@addble.com"
+                                        "phone": "0000000000",
+                                        "email": "plantix@addble.com"
                                     }
                                 },
                                 {
                                     "id": "F2",
                                     "type": "Self-Pickup",
                                     "contact": {
-                                        "phone": "9954780440",
-                                        "email": "jane@addble.com"
+                                        "phone": "0000000000",
+                                        "email": "plantix@addble.com"
                                     }
                                 }
                             ],
@@ -349,49 +535,35 @@
         "select": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "select",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "select",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "b1f6ea5a-0165-4429-9c88-01b43f885b77",
-                "message_id": "c7789626-8b52-44ba-b1d1-58985b2d2e62",
-                "timestamp": "2024-11-07T09:53:05.719201+00:00",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "031d7bbd-3d3e-4476-9af6-a2d87e4549d4",
+                "message_id": "339856df-5ea1-4761-8589-5997a00c2ded",
+                "timestamp": "2024-11-22T12:16:21.154Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "F9nPDq0U58cOTPbOaWL1",
-                            "location_id": "7kZu3N7P57bFinuL1yha",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "location_id": "4jCjKEGVSOOOWeJ8Flwo",
                             "quantity": {
-                                "count": 2
-                            }
-                        },
-                        {
-                            "id": "YZ2SySvvAuPhIyec6gog",
-                            "location_id": "7kZu3N7P57bFinuL1yha",
-                            "quantity": {
-                                "count": 3
-                            }
-                        },
-                        {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "location_id": "7kZu3N7P57bFinuL1yha",
-                            "quantity": {
-                                "count": 4
+                                "count": 1
                             }
                         }
                     ],
@@ -399,65 +571,60 @@
                         {
                             "end": {
                                 "location": {
-                                    "gps": "12.8870964,77.5734042",
+                                    "gps": "24.8146672,93.8784754",
                                     "address": {
-                                        "area_code": "560078"
+                                        "area_code": "795146"
                                     }
                                 }
                             }
                         }
-                    ]
+                    ],
+                    "payment": {
+                        "type": "ON-ORDER"
+                    }
                 }
             }
         },
         "on_select": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "on_select",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "on_select",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "b1f6ea5a-0165-4429-9c88-01b43f885b77",
-                "message_id": "c7789626-8b52-44ba-b1d1-58985b2d2e62",
-                "timestamp": "2024-11-07T09:53:07.990Z",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "031d7bbd-3d3e-4476-9af6-a2d87e4549d4",
+                "message_id": "339856df-5ea1-4761-8589-5997a00c2ded",
+                "timestamp": "2024-11-22T12:16:23.707Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "fulfillment_id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
-                            "id": "F9nPDq0U58cOTPbOaWL1"
-                        },
-                        {
-                            "fulfillment_id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
-                            "id": "YZ2SySvvAuPhIyec6gog"
-                        },
-                        {
-                            "fulfillment_id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
-                            "id": "4vkgqsSvRZEwywbpMeW2"
+                            "fulfillment_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
+                            "id": "Ys3dWuXU3W8sUVAvxIei"
                         }
                     ],
                     "fulfillments": [
                         {
-                            "id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
+                            "id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
                             "type": "Delivery",
-                            "@ondc/org/provider_name": "Farmigo Agro Tech",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
                             "tracking": false,
                             "@ondc/org/category": "Standard Delivery",
-                            "@ondc/org/TAT": "P1DT3H",
+                            "@ondc/org/TAT": "PT8H",
                             "state": {
                                 "descriptor": {
                                     "code": "Serviceable"
@@ -468,94 +635,42 @@
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "2150.00"
+                            "value": "1050.00"
                         },
                         "breakup": [
                             {
-                                "@ondc/org/item_id": "F9nPDq0U58cOTPbOaWL1",
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
                                 "@ondc/org/item_quantity": {
-                                    "count": 2
+                                    "count": 1
                                 },
                                 "@ondc/org/title_type": "item",
-                                "title": "Cow Manure",
+                                "title": "My Test machine",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "600"
+                                    "value": "1030"
                                 },
                                 "item": {
                                     "price": {
                                         "currency": "INR",
-                                        "value": "300"
+                                        "value": "1030"
                                     },
                                     "quantity": {
                                         "available": {
                                             "count": "99"
                                         },
                                         "maximum": {
-                                            "count": "99"
+                                            "count": "2"
                                         }
                                     }
                                 }
                             },
                             {
-                                "@ondc/org/item_id": "4vkgqsSvRZEwywbpMeW2",
-                                "@ondc/org/item_quantity": {
-                                    "count": 4
-                                },
-                                "@ondc/org/title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "1200"
-                                },
-                                "item": {
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "300"
-                                    },
-                                    "quantity": {
-                                        "available": {
-                                            "count": "99"
-                                        },
-                                        "maximum": {
-                                            "count": "99"
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "@ondc/org/item_id": "YZ2SySvvAuPhIyec6gog",
-                                "@ondc/org/item_quantity": {
-                                    "count": 3
-                                },
-                                "@ondc/org/title_type": "item",
-                                "title": "Pesticide",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "300"
-                                },
-                                "item": {
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "100"
-                                    },
-                                    "quantity": {
-                                        "available": {
-                                            "count": "99"
-                                        },
-                                        "maximum": {
-                                            "count": "99"
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "@ondc/org/item_id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
+                                "@ondc/org/item_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
                                 "title": "Delivery charges",
                                 "@ondc/org/title_type": "delivery",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ],
@@ -567,49 +682,35 @@
         "init": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "init",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "init",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "b1f6ea5a-0165-4429-9c88-01b43f885b77",
-                "message_id": "ddecece7-34ee-498c-b4ff-6dcfe40441e3",
-                "timestamp": "2024-11-07T09:55:03.356477+00:00",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "031d7bbd-3d3e-4476-9af6-a2d87e4549d4",
+                "message_id": "cc1ef2b7-0628-40be-87a3-9892116c3ec1",
+                "timestamp": "2024-11-22T12:21:17.245Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "F9nPDq0U58cOTPbOaWL1",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
                             "quantity": {
-                                "count": 2
-                            }
-                        },
-                        {
-                            "id": "YZ2SySvvAuPhIyec6gog",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
-                            "quantity": {
-                                "count": 3
-                            }
-                        },
-                        {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
-                            "quantity": {
-                                "count": 4
+                                "count": 1
                             }
                         }
                     ],
@@ -628,16 +729,16 @@
                         "tax_number": "TAX123456",
                         "email": "john.doe@example.com",
                         "phone": "7702863154",
-                        "created_at": "2024-11-07T09:55:03.351149+00:00",
-                        "updated_at": "2024-11-07T09:55:03.351278+00:00"
+                        "created_at": "2024-11-22T12:21:17.239633+00:00",
+                        "updated_at": "2024-11-22T12:21:17.239722+00:00"
                     },
                     "fulfillments": [
                         {
-                            "id": "338690e6-b19b-4ed1-ab27-5a72c03e92b8",
+                            "id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
                             "type": "Delivery",
                             "end": {
                                 "location": {
-                                    "gps": "12.8870964,77.5734042",
+                                    "gps": "24.8146672,93.8784754",
                                     "address": {
                                         "name": "John's Office",
                                         "building": "Office Block 2",
@@ -645,7 +746,7 @@
                                         "city": "Sample City",
                                         "state": "Sample State",
                                         "country": "IND",
-                                        "area_code": "560078"
+                                        "area_code": "795146"
                                     }
                                 },
                                 "contact": {
@@ -660,49 +761,35 @@
         "on_init": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "on_init",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "on_init",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
                 "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "b1f6ea5a-0165-4429-9c88-01b43f885b77",
-                "message_id": "ddecece7-34ee-498c-b4ff-6dcfe40441e3",
-                "timestamp": "2024-11-07T09:55:04.581Z",
+                "transaction_id": "031d7bbd-3d3e-4476-9af6-a2d87e4549d4",
+                "message_id": "cc1ef2b7-0628-40be-87a3-9892116c3ec1",
+                "timestamp": "2024-11-22T12:21:18.341Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "F9nPDq0U58cOTPbOaWL1",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
                             "quantity": {
-                                "count": 2
-                            }
-                        },
-                        {
-                            "id": "YZ2SySvvAuPhIyec6gog",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
-                            "quantity": {
-                                "count": 3
-                            }
-                        },
-                        {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
-                            "quantity": {
-                                "count": 4
+                                "count": 1
                             }
                         }
                     ],
@@ -720,13 +807,36 @@
                         "tax_number": "TAX123456",
                         "email": "john.doe@example.com",
                         "phone": "7702863154",
-                        "created_at": "2024-11-07T09:55:03.351149+00:00",
-                        "updated_at": "2024-11-07T09:55:03.351278+00:00"
+                        "created_at": "2024-11-22T12:21:17.239633+00:00",
+                        "updated_at": "2024-11-22T12:21:17.239722+00:00"
                     },
-                    "fulfillments": [],
+                    "fulfillments": [
+                        {
+                            "id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
+                            "tracking": false,
+                            "type": "Delivery",
+                            "end": {
+                                "location": {
+                                    "gps": "24.8146672,93.8784754",
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    }
+                                },
+                                "contact": {
+                                    "phone": "7702863154"
+                                }
+                            }
+                        }
+                    ],
                     "payment": {
                         "@ondc/org/buyer_app_finder_fee_type": "percent",
-                        "@ondc/org/buyer_app_finder_fee_amount": "5",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
                         "@ondc/org/settlement_details": [
                             {
                                 "settlement_counterparty": "seller-app",
@@ -743,70 +853,34 @@
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "2150.00"
+                            "value": "1050.00"
                         },
                         "breakup": [
                             {
-                                "@ondc/org/item_id": "F9nPDq0U58cOTPbOaWL1",
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
                                 "@ondc/org/item_quantity": {
-                                    "count": 2
+                                    "count": 1
                                 },
                                 "@ondc/org/title_type": "item",
-                                "title": "Cow Manure",
+                                "title": "My Test machine",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "600"
+                                    "value": "1030"
                                 },
                                 "item": {
                                     "price": {
                                         "currency": "INR",
-                                        "value": "300"
+                                        "value": "1030"
                                     }
                                 }
                             },
                             {
-                                "@ondc/org/item_id": "4vkgqsSvRZEwywbpMeW2",
-                                "@ondc/org/item_quantity": {
-                                    "count": 4
-                                },
-                                "@ondc/org/title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "1200"
-                                },
-                                "item": {
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "300"
-                                    }
-                                }
-                            },
-                            {
-                                "@ondc/org/item_id": "YZ2SySvvAuPhIyec6gog",
-                                "@ondc/org/item_quantity": {
-                                    "count": 3
-                                },
-                                "@ondc/org/title_type": "item",
-                                "title": "Pesticide",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "300"
-                                },
-                                "item": {
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "100"
-                                    }
-                                }
-                            },
-                            {
-                                "@ondc/org/item_id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
+                                "@ondc/org/item_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
                                 "title": "Delivery charges",
                                 "@ondc/org/title_type": "delivery",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ],
@@ -822,7 +896,7 @@
                                 },
                                 {
                                     "code": "provider_tax_number",
-                                    "value": "ABCDE1234F"
+                                    "value": "QWERTYUIOP"
                                 }
                             ]
                         }
@@ -832,23 +906,23 @@
         },
         "confirm": {
             "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
                 "action": "confirm",
+                "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "city": "std:080",
-                "core_version": "1.2.0",
-                "country": "IND",
-                "domain": "ONDC:AGR10",
-                "message_id": "adabb58c-1795-4f03-a80e-fdbb9c447260",
-                "transaction_id": "b1f6ea5a-0165-4429-9c88-01b43f885b77",
-                "timestamp": "2024-11-07T09:56:37.440462+00:00",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "031d7bbd-3d3e-4476-9af6-a2d87e4549d4",
+                "message_id": "00a2497e-0ff1-4fcc-86eb-99660c3006fd",
+                "timestamp": "2024-11-22T12:22:22.818Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "c05927b2-d3c0-4a21-8b33-9c14d61f098d",
+                    "id": "10f92ead-3afc-4496-9d86-0d74bae1f6e5",
                     "state": "Created",
                     "billing": {
                         "address": {
@@ -863,118 +937,113 @@
                         "phone": "7702863154",
                         "name": "John Doe",
                         "email": "john.doe@example.com",
-                        "created_at": "2024-11-07T09:55:03.351149+00:00",
-                        "updated_at": "2024-11-07T09:55:03.351278+00:00"
+                        "created_at": "2024-11-22T12:21:17.239633+00:00",
+                        "updated_at": "2024-11-22T12:21:17.239722+00:00"
                     },
                     "items": [
                         {
-                            "id": "F9nPDq0U58cOTPbOaWL1",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
                             "quantity": {
-                                "count": 2
+                                "count": 1
                             },
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5"
-                        },
-                        {
-                            "id": "YZ2SySvvAuPhIyec6gog",
-                            "quantity": {
-                                "count": 3
-                            },
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5"
-                        },
-                        {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "quantity": {
-                                "count": 4
-                            },
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5"
+                            "fulfillment_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88"
                         }
                     ],
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
-                    "fulfillments": [],
+                    "fulfillments": [
+                        {
+                            "tat": null,
+                            "id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
+                            "tracking": false,
+                            "end": {
+                                "contact": {
+                                    "phone": "7702863154",
+                                    "email": null
+                                },
+                                "person": {
+                                    "name": ""
+                                },
+                                "location": {
+                                    "gps": "24.8146672,93.8784754",
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    }
+                                }
+                            },
+                            "type": "Delivery"
+                        }
+                    ],
                     "payment": {
                         "uri": "",
                         "tl_method": "",
                         "params": {
-                            "amount": "2150.00",
+                            "amount": "1050.00",
                             "currency": "INR",
                             "transaction_id": ""
                         },
                         "status": "PAID",
                         "type": "ON-ORDER",
-                        "collected_by": "BAP"
+                        "collected_by": "BAP",
+                        "buyer_app_finder_fee_type": "percent",
+                        "buyer_app_finder_fee_amount": 3,
+                        "settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ]
                     },
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "2150.00"
+                            "value": "1050.00"
                         },
                         "breakup": [
                             {
-                                "item_id": "F9nPDq0U58cOTPbOaWL1",
-                                "item_quantity": {
-                                    "count": 2
-                                },
-                                "title_type": "item",
-                                "title": "Cow Manure",
+                                "item_id": null,
+                                "item_quantity": null,
+                                "title_type": null,
+                                "title": "My Test machine",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "600"
+                                    "value": "1030"
                                 },
                                 "item": {
                                     "currency": "INR",
-                                    "value": "600"
+                                    "value": "1030"
                                 }
                             },
                             {
-                                "item_id": "4vkgqsSvRZEwywbpMeW2",
-                                "item_quantity": {
-                                    "count": 4
-                                },
-                                "title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "1200"
-                                },
-                                "item": {
-                                    "currency": "INR",
-                                    "value": "1200"
-                                }
-                            },
-                            {
-                                "item_id": "YZ2SySvvAuPhIyec6gog",
-                                "item_quantity": {
-                                    "count": 3
-                                },
-                                "title_type": "item",
-                                "title": "Pesticide",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "300"
-                                },
-                                "item": {
-                                    "currency": "INR",
-                                    "value": "300"
-                                }
-                            },
-                            {
-                                "item_id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
-                                "title_type": "delivery",
+                                "item_id": null,
+                                "item_quantity": null,
+                                "title_type": null,
                                 "title": "Delivery charges",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 },
                                 "item": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ]
@@ -989,65 +1058,51 @@
                                 },
                                 {
                                     "code": "provider_tax_number",
-                                    "value": "ABCDE1234F"
+                                    "value": "QWERTYUIOP"
                                 }
                             ]
                         }
                     ],
-                    "created_at": "2024-11-07T09:56:37.440462+00:00",
-                    "updated_at": "2024-11-07T09:56:37.440462+00:00"
+                    "created_at": "2024-11-22T12:22:22.818477+00:00",
+                    "updated_at": "2024-11-22T12:22:22.818477+00:00"
                 }
             }
         },
         "on_confirm": {
             "context": {
+                "domain": "ONDC:AGR10",
+                "country": "IND",
+                "city": "std:0385",
                 "action": "on_confirm",
+                "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
                 "bpp_uri": "https://preprod-ondc.addble.com/",
-                "city": "std:080",
-                "core_version": "1.2.0",
-                "country": "IND",
-                "domain": "ONDC:AGR10",
-                "message_id": "adabb58c-1795-4f03-a80e-fdbb9c447260",
-                "transaction_id": "b1f6ea5a-0165-4429-9c88-01b43f885b77",
-                "timestamp": "2024-11-07T09:56:39.247Z",
+                "transaction_id": "031d7bbd-3d3e-4476-9af6-a2d87e4549d4",
+                "message_id": "00a2497e-0ff1-4fcc-86eb-99660c3006fd",
+                "timestamp": "2024-11-22T12:22:23.768Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "c05927b2-d3c0-4a21-8b33-9c14d61f098d",
-                    "state": "Accepted",
+                    "id": "10f92ead-3afc-4496-9d86-0d74bae1f6e5",
+                    "state": "Created",
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "F9nPDq0U58cOTPbOaWL1",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
                             "quantity": {
-                                "count": 2
+                                "count": 1
                             },
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5"
-                        },
-                        {
-                            "id": "YZ2SySvvAuPhIyec6gog",
-                            "quantity": {
-                                "count": 3
-                            },
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5"
-                        },
-                        {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "quantity": {
-                                "count": 4
-                            },
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5"
+                            "fulfillment_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88"
                         }
                     ],
                     "billing": {
@@ -1063,13 +1118,16 @@
                         "phone": "7702863154",
                         "name": "John Doe",
                         "email": "john.doe@example.com",
-                        "created_at": "2024-11-07T09:55:03.351149+00:00",
-                        "updated_at": "2024-11-07T09:55:03.351278+00:00"
+                        "created_at": "2024-11-22T12:21:17.239633+00:00",
+                        "updated_at": "2024-11-22T12:21:17.239722+00:00"
                     },
                     "fulfillments": [
                         {
-                            "@ondc/org/provider_name": "Farmigo Agro Tech",
-                            "@ondc/org/TAT": "P1DT3H",
+                            "id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
+                            "type": "Delivery",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
+                            "tracking": false,
+                            "@ondc/org/TAT": "PT8H",
                             "state": {
                                 "descriptor": {
                                     "code": "Pending"
@@ -1077,33 +1135,49 @@
                             },
                             "start": {
                                 "location": {
-                                    "id": "7kZu3N7P57bFinuL1yha",
+                                    "id": "4jCjKEGVSOOOWeJ8Flwo",
                                     "descriptor": {
-                                        "name": "Farmigo Agro Tech"
+                                        "name": "PLANTIX TEST"
                                     },
-                                    "gps": "12.91348965368409,77.63762354850769",
+                                    "gps": "24.814414,93.878926",
                                     "address": {
-                                        "locality": "HSR Layout",
-                                        "city": "BENGALURU URBAN",
-                                        "area_code": "560102",
-                                        "state": "Karnataka"
+                                        "locality": "BIR TIKENDRAJIT MEMORIAL COMPLEX LAMSANG SUB DIVISION",
+                                        "city": "IMPHAL WEST",
+                                        "area_code": "795146",
+                                        "state": "Manipur"
                                     }
                                 },
                                 "contact": {
-                                    "phone": "9954780440"
+                                    "phone": "0000000000"
                                 },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T09:56:37.440Z",
-                                        "end": "2024-11-08T10:41:37.440Z"
+                                        "start": "2024-11-22T16:22:22.818Z",
+                                        "end": "2024-11-22T17:07:22.818Z"
                                     }
                                 }
                             },
                             "end": {
+                                "location": {
+                                    "gps": "24.8146672,93.8784754",
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    }
+                                },
+                                "contact": {
+                                    "phone": "7702863154",
+                                    "email": null
+                                },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T12:56:37.440Z",
-                                        "end": "2024-11-08T13:41:37.440Z"
+                                        "start": "2024-11-22T20:22:22.818Z",
+                                        "end": "2024-11-22T21:07:22.818Z"
                                     }
                                 }
                             }
@@ -1112,68 +1186,35 @@
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "2150.00"
+                            "value": "1050.00"
                         },
                         "breakup": [
                             {
-                                "item_id": "F9nPDq0U58cOTPbOaWL1",
-                                "item_quantity": {
-                                    "count": 2
-                                },
-                                "title_type": "item",
-                                "title": "Cow Manure",
+                                "item_id": null,
+                                "item_quantity": null,
+                                "title_type": null,
+                                "title": "My Test machine",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "600"
+                                    "value": "1030"
                                 },
                                 "item": {
                                     "currency": "INR",
-                                    "value": "600"
+                                    "value": "1030"
                                 }
                             },
                             {
-                                "item_id": "4vkgqsSvRZEwywbpMeW2",
-                                "item_quantity": {
-                                    "count": 4
-                                },
-                                "title_type": "item",
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "1200"
-                                },
-                                "item": {
-                                    "currency": "INR",
-                                    "value": "1200"
-                                }
-                            },
-                            {
-                                "item_id": "YZ2SySvvAuPhIyec6gog",
-                                "item_quantity": {
-                                    "count": 3
-                                },
-                                "title_type": "item",
-                                "title": "Pesticide",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "300"
-                                },
-                                "item": {
-                                    "currency": "INR",
-                                    "value": "300"
-                                }
-                            },
-                            {
-                                "item_id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
-                                "title_type": "delivery",
+                                "item_id": null,
+                                "item_quantity": null,
+                                "title_type": null,
                                 "title": "Delivery charges",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 },
                                 "item": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ]
@@ -1182,13 +1223,27 @@
                         "uri": "",
                         "tl_method": "",
                         "params": {
-                            "amount": "2150.00",
+                            "amount": "1050.00",
                             "currency": "INR",
                             "transaction_id": ""
                         },
                         "status": "PAID",
                         "type": "ON-ORDER",
-                        "collected_by": "BAP"
+                        "collected_by": "BAP",
+                        "buyer_app_finder_fee_type": "percent",
+                        "buyer_app_finder_fee_amount": 3,
+                        "settlement_details": [
+                            {
+                                "settlement_counterparty": "seller-app",
+                                "settlement_phase": "sale-amount",
+                                "settlement_bank_account_no": "100000",
+                                "settlement_ifsc_code": "IDFB0000000",
+                                "settlement_type": "neft",
+                                "beneficiary_name": "ADDBLE SOLUTIONS PRIVATE LIMITED-ONDC",
+                                "bank_name": "IDFC FIRST Bank",
+                                "branch_name": "Park Street Branch"
+                            }
+                        ]
                     },
                     "tags": [
                         {
@@ -1200,7 +1255,7 @@
                                 },
                                 {
                                     "code": "provider_tax_number",
-                                    "value": "ABCDE1234F"
+                                    "value": "QWERTYUIOP"
                                 },
                                 {
                                     "code": "np_type",
@@ -1209,101 +1264,73 @@
                             ]
                         }
                     ],
-                    "created_at": "2024-11-07T09:56:37.440462+00:00",
-                    "updated_at": "2024-11-07T09:56:39.247Z"
+                    "created_at": "2024-11-22T12:22:22.818477+00:00",
+                    "updated_at": "2024-11-22T12:22:23.768Z"
                 }
             }
         },
         "cancel": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "cancel",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "init",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
-                "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "b1f6ea5a-0165-4429-9c88-01b43f885b77",
-                "message_id": "8da4e4cb-b9b8-4f22-a4df-88d045952d72",
-                "timestamp": "2024-11-07T10:42:04.625433+00:00",
+                "bpp_uri": "https://preprod-ondc.addble.com",
+                "transaction_id": "031d7bbd-3d3e-4476-9af6-a2d87e4549d4",
+                "message_id": "292ce2e4-4347-4ae7-9076-ba6f3e7a270a",
+                "timestamp": "2024-11-22T12:31:30.846Z",
                 "ttl": "PT30S"
             },
             "message": {
-                "order_id": "c05927b2-d3c0-4a21-8b33-9c14d61f098d",
+                "order_id": "10f92ead-3afc-4496-9d86-0d74bae1f6e5",
                 "cancellation_reason_id": "006"
             }
         },
         "on_cancel": {
             "context": {
                 "domain": "ONDC:AGR10",
-                "action": "on_cancel",
                 "country": "IND",
-                "city": "std:080",
+                "city": "std:0385",
+                "action": "on_cancel",
                 "core_version": "1.2.0",
                 "bap_id": "onca.dev.peat-cloud.com",
                 "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
                 "bpp_id": "preprod-ondc.addble.com",
                 "bpp_uri": "https://preprod-ondc.addble.com/",
-                "transaction_id": "b1f6ea5a-0165-4429-9c88-01b43f885b77",
-                "message_id": "8da4e4cb-b9b8-4f22-a4df-88d045952d72",
-                "timestamp": "2024-11-07T10:42:05.851Z",
+                "transaction_id": "031d7bbd-3d3e-4476-9af6-a2d87e4549d4",
+                "message_id": "292ce2e4-4347-4ae7-9076-ba6f3e7a270a",
+                "timestamp": "2024-11-22T12:31:32.133Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "c05927b2-d3c0-4a21-8b33-9c14d61f098d",
+                    "id": "10f92ead-3afc-4496-9d86-0d74bae1f6e5",
                     "state": "Cancelled",
                     "provider": {
-                        "id": "H6JplBH0HQxkVoKWAnD3",
+                        "id": "otJQetBqULjdFiys1IKa",
                         "locations": [
                             {
-                                "id": "7kZu3N7P57bFinuL1yha"
+                                "id": "4jCjKEGVSOOOWeJ8Flwo"
                             }
                         ]
                     },
                     "items": [
                         {
-                            "id": "F9nPDq0U58cOTPbOaWL1",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
                             "quantity": {
                                 "count": 0
                             }
                         },
                         {
-                            "id": "F9nPDq0U58cOTPbOaWL1",
-                            "fulfillment_id": "e42d366a-fd3a-401b-a92d-0fc50c57621b",
+                            "id": "Ys3dWuXU3W8sUVAvxIei",
+                            "fulfillment_id": "3eeddc29-2dc4-45e9-94b4-aaf56fc1ada2",
                             "quantity": {
-                                "count": 2
-                            }
-                        },
-                        {
-                            "id": "YZ2SySvvAuPhIyec6gog",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
-                            "quantity": {
-                                "count": 0
-                            }
-                        },
-                        {
-                            "id": "YZ2SySvvAuPhIyec6gog",
-                            "fulfillment_id": "e42d366a-fd3a-401b-a92d-0fc50c57621b",
-                            "quantity": {
-                                "count": 3
-                            }
-                        },
-                        {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "fulfillment_id": "43d79997-ac7d-4e0c-9b44-deca0e1a2da5",
-                            "quantity": {
-                                "count": 0
-                            }
-                        },
-                        {
-                            "id": "4vkgqsSvRZEwywbpMeW2",
-                            "fulfillment_id": "e42d366a-fd3a-401b-a92d-0fc50c57621b",
-                            "quantity": {
-                                "count": 4
+                                "count": 1
                             }
                         }
                     ],
@@ -1321,18 +1348,18 @@
                         "tax_number": "TAX123456",
                         "email": "john.doe@example.com",
                         "phone": "7702863154",
-                        "created_at": "2024-11-07T09:55:03.351149+00:00",
-                        "updated_at": "2024-11-07T09:55:03.351278+00:00"
+                        "created_at": "2024-11-22T12:21:17.239633+00:00",
+                        "updated_at": "2024-11-22T12:21:17.239722+00:00"
                     },
                     "cancellation": {
-                        "cancelled_by": "onca.dev.peat-cloud",
+                        "cancelled_by": "onca.dev.peat-cloud.com",
                         "reason": {
                             "id": "006"
                         }
                     },
                     "fulfillments": [
                         {
-                            "id": "e42d366a-fd3a-401b-a92d-0fc50c57621b",
+                            "id": "3eeddc29-2dc4-45e9-94b4-aaf56fc1ada2",
                             "type": "Cancel",
                             "state": {
                                 "descriptor": {
@@ -1349,7 +1376,7 @@
                                         },
                                         {
                                             "code": "id",
-                                            "value": "F9nPDq0U58cOTPbOaWL1"
+                                            "value": "Ys3dWuXU3W8sUVAvxIei"
                                         },
                                         {
                                             "code": "currency",
@@ -1357,57 +1384,15 @@
                                         },
                                         {
                                             "code": "value",
-                                            "value": "-600"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "quote_trail",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "item"
-                                        },
-                                        {
-                                            "code": "id",
-                                            "value": "4vkgqsSvRZEwywbpMeW2"
-                                        },
-                                        {
-                                            "code": "currency",
-                                            "value": "INR"
-                                        },
-                                        {
-                                            "code": "value",
-                                            "value": "-1200"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "quote_trail",
-                                    "list": [
-                                        {
-                                            "code": "type",
-                                            "value": "item"
-                                        },
-                                        {
-                                            "code": "id",
-                                            "value": "YZ2SySvvAuPhIyec6gog"
-                                        },
-                                        {
-                                            "code": "currency",
-                                            "value": "INR"
-                                        },
-                                        {
-                                            "code": "value",
-                                            "value": "-300"
+                                            "value": "-1030"
                                         }
                                     ]
                                 }
                             ]
                         },
                         {
-                            "id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
-                            "@ondc/org/provider_name": "Farmigo Agro Tech",
+                            "id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
+                            "@ondc/org/provider_name": "PLANTIX TEST",
                             "state": {
                                 "descriptor": {
                                     "code": "Cancelled"
@@ -1415,10 +1400,56 @@
                             },
                             "type": "Delivery",
                             "tracking": false,
-                            "@ondc/org/TAT": "P1DT3H",
+                            "@ondc/org/TAT": "PT8H",
                             "start": {
                                 "location": {
-                                    "address": {}
+                                    "id": "4jCjKEGVSOOOWeJ8Flwo",
+                                    "descriptor": {
+                                        "name": "Plantix Test Location Name"
+                                    },
+                                    "gps": "24.814414,93.878926",
+                                    "address": {
+                                        "locality": "BIR TIKENDRAJIT MEMORIAL COMPLEX LAMSANG SUB DIVISION",
+                                        "city": "IMPHAL WEST",
+                                        "state": "Manipur",
+                                        "area_code": "795146"
+                                    }
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T16:22:22.818Z",
+                                        "end": "2024-11-22T17:07:22.818Z"
+                                    }
+                                },
+                                "contact": {
+                                    "phone": "0000000000",
+                                    "email": "plantix@addble.com"
+                                }
+                            },
+                            "end": {
+                                "location": {
+                                    "gps": "24.8146672,93.8784754",
+                                    "address": {
+                                        "name": "John's Office",
+                                        "building": "Office Block 2",
+                                        "locality": "Commercial St",
+                                        "city": "Sample City",
+                                        "state": "Sample State",
+                                        "country": "IND",
+                                        "area_code": "795146"
+                                    }
+                                },
+                                "contact": {
+                                    "phone": "7702863154"
+                                },
+                                "person": {
+                                    "name": ""
+                                },
+                                "time": {
+                                    "range": {
+                                        "start": "2024-11-22T20:22:22.818Z",
+                                        "end": "2024-11-22T21:07:22.818Z"
+                                    }
                                 }
                             },
                             "tags": [
@@ -1431,7 +1462,7 @@
                                         },
                                         {
                                             "code": "initiated_by",
-                                            "value": "onca.dev.peat-cloud"
+                                            "value": "onca.dev.peat-cloud.com"
                                         }
                                     ]
                                 },
@@ -1444,7 +1475,7 @@
                                         },
                                         {
                                             "code": "updated_at",
-                                            "value": "2024-11-07T09:56:39.247Z"
+                                            "value": "2024-11-22T12:22:23.768Z"
                                         }
                                     ]
                                 }
@@ -1453,7 +1484,7 @@
                     ],
                     "payment": {
                         "@ondc/org/buyer_app_finder_fee_type": "percent",
-                        "@ondc/org/buyer_app_finder_fee_amount": "5",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
                         "@ondc/org/settlement_details": [
                             {
                                 "settlement_counterparty": "seller-app",
@@ -1469,7 +1500,7 @@
                         "uri": "",
                         "tl_method": "",
                         "params": {
-                            "amount": "2150.00",
+                            "amount": "1050.00",
                             "currency": "INR",
                             "transaction_id": ""
                         },
@@ -1480,15 +1511,15 @@
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "50"
+                            "value": "20"
                         },
                         "breakup": [
                             {
-                                "@ondc/org/item_id": "F9nPDq0U58cOTPbOaWL1",
+                                "@ondc/org/item_id": "Ys3dWuXU3W8sUVAvxIei",
                                 "@ondc/org/item_quantity": {
                                     "count": 0
                                 },
-                                "title": "Cow Manure",
+                                "title": "My Test machine",
                                 "@ondc/org/title_type": "item",
                                 "price": {
                                     "currency": "INR",
@@ -1497,60 +1528,24 @@
                                 "item": {
                                     "price": {
                                         "currency": "INR",
-                                        "value": "300"
+                                        "value": "1030"
                                     }
                                 }
                             },
                             {
-                                "@ondc/org/item_id": "4vkgqsSvRZEwywbpMeW2",
-                                "@ondc/org/item_quantity": {
-                                    "count": 0
-                                },
-                                "title": "IBEX 12-Teeth Hand Cultivator Rake Without Handle Garden Rake (Red) Garden rake  (29 cm)",
-                                "@ondc/org/title_type": "item",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "0.00"
-                                },
-                                "item": {
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "300"
-                                    }
-                                }
-                            },
-                            {
-                                "@ondc/org/item_id": "YZ2SySvvAuPhIyec6gog",
-                                "@ondc/org/item_quantity": {
-                                    "count": 0
-                                },
-                                "title": "Pesticide",
-                                "@ondc/org/title_type": "item",
-                                "price": {
-                                    "currency": "INR",
-                                    "value": "0.00"
-                                },
-                                "item": {
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "100"
-                                    }
-                                }
-                            },
-                            {
-                                "@ondc/org/item_id": "b42bfe87-27bc-4d0e-b176-f4068ac39abc",
+                                "@ondc/org/item_id": "ba9c4b1b-c15d-438f-8345-38523c2efc88",
                                 "title": "Delivery charges",
                                 "@ondc/org/title_type": "delivery",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "50"
+                                    "value": "20"
                                 }
                             }
                         ],
                         "ttl": "P1D"
                     },
-                    "created_at": "2024-11-07T09:56:37.440462+00:00",
-                    "updated_at": "2024-11-07T10:42:05.738Z"
+                    "created_at": "2024-11-22T12:22:22.818477+00:00",
+                    "updated_at": "2024-11-22T12:31:32.030Z"
                 }
             }
         }
