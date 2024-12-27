@@ -6,12 +6,12 @@
         "city": "std:0385",
         "core_version": "1.2.0",
         "bap_id": "onca.dev.peat-cloud.com",
-        "bap_uri": "https://pay-begun-pressing-peripherals.trycloudflare.com/ondc/v1",
+        "bap_uri": "https://alarm-pleasure-german-differential.trycloudflare.com/ondc/v1",
         "bpp_id": "preprod-ondc.addble.com",
         "bpp_uri": "https://preprod-ondc.addble.com",
-        "transaction_id": "8a887cbd-945a-4cd8-80b4-5292ff40b2c7",
-        "message_id": "36aa2636-db96-4bf2-aed2-e424c6411b4a",
-        "timestamp": "2024-12-18T12:19:45.654292+00:00",
+        "transaction_id": "b72a2f78-1783-460f-bb1e-a44b9abdc4c3",
+        "message_id": "2d5cbbfa-53c5-4339-b650-da1eb5ddf811",
+        "timestamp": "2024-12-27T08:45:30.754720+00:00",
         "ttl": "PT30S"
     },
     "message": {

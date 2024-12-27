@@ -6,12 +6,12 @@
         "city": "std:0385",
         "core_version": "1.2.0",
         "bap_id": "onca.dev.peat-cloud.com",
-        "bap_uri": "https://pay-begun-pressing-peripherals.trycloudflare.com/ondc/v1",
+        "bap_uri": "https://alarm-pleasure-german-differential.trycloudflare.com/ondc/v1",
         "bpp_id": "preprod-ondc.addble.com",
         "bpp_uri": "https://preprod-ondc.addble.com",
-        "transaction_id": "8a887cbd-945a-4cd8-80b4-5292ff40b2c7",
-        "message_id": "36aa2636-db96-4bf2-aed2-e424c6411b4a",
-        "timestamp": "2024-12-18T12:19:48.937Z",
+        "transaction_id": "b72a2f78-1783-460f-bb1e-a44b9abdc4c3",
+        "message_id": "2d5cbbfa-53c5-4339-b650-da1eb5ddf811",
+        "timestamp": "2024-12-27T08:45:35.550Z",
         "ttl": "PT30S"
     },
     "message": {
@@ -26,17 +26,17 @@
             },
             "items": [
                 {
-                    "fulfillment_id": "1df97470-e9b6-4f04-90e4-b1d518c08a04",
+                    "fulfillment_id": "b94562b0-8177-4766-8fe1-5967cc38c2fa",
                     "id": "WkM0I3RIFbcHeLJxUceY"
                 },
                 {
-                    "fulfillment_id": "1df97470-e9b6-4f04-90e4-b1d518c08a04",
+                    "fulfillment_id": "b94562b0-8177-4766-8fe1-5967cc38c2fa",
                     "id": "Ys3dWuXU3W8sUVAvxIei"
                 }
             ],
             "fulfillments": [
                 {
-                    "id": "1df97470-e9b6-4f04-90e4-b1d518c08a04",
+                    "id": "b94562b0-8177-4766-8fe1-5967cc38c2fa",
                     "type": "Delivery",
                     "@ondc/org/provider_name": "PLANTIX TEST",
                     "tracking": false,
@@ -108,7 +108,7 @@
                         }
                     },
                     {
-                        "@ondc/org/item_id": "1df97470-e9b6-4f04-90e4-b1d518c08a04",
+                        "@ondc/org/item_id": "b94562b0-8177-4766-8fe1-5967cc38c2fa",
                         "title": "Delivery charges",
                         "@ondc/org/title_type": "delivery",
                         "price": {
