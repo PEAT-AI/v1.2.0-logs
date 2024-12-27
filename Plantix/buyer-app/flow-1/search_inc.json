@@ -6,7 +6,7 @@
     "action": "search",
     "core_version": "1.2.0",
     "bap_id": "onca.dev.peat-cloud.com",
-    "bap_uri": "https://pay-begun-pressing-peripherals.trycloudflare.com/ondc/v1",
+    "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
     "transaction_id": "1b06b231-f3ac-4ac5-98d7-27cb9aea07d0",
     "message_id": "d4431aef-17b8-4056-8471-3b25350e7f67",
     "timestamp": "2024-12-18T11:57:09.792Z",

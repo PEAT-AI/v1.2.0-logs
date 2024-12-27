@@ -6,7 +6,7 @@
         "action": "on_cancel",
         "core_version": "1.2.0",
         "bap_id": "onca.dev.peat-cloud.com",
-        "bap_uri": "https://alarm-pleasure-german-differential.trycloudflare.com/ondc/v1",
+        "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
         "bpp_id": "preprod-ondc.addble.com",
         "bpp_uri": "https://preprod-ondc.addble.com/",
         "transaction_id": "9033d5a5-6b2c-48ab-988d-4c8bd1e353d9",
