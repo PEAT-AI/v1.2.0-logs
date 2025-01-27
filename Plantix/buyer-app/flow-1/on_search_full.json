@@ -1,484 +1,298 @@
 {
-    "context": {
-        "domain": "ONDC:AGR10",
-        "country": "IND",
-        "city": "std:0385",
-        "action": "on_search",
-        "core_version": "1.2.0",
-        "bap_id": "onca.dev.peat-cloud.com",
-        "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
-        "transaction_id": "8c3d63e9-0aff-429a-a752-7f847f1f208e",
-        "message_id": "31e6b8e9-2a18-4c8d-9661-e014fbd6bfcf",
-        "timestamp": "2025-01-13T08:26:21.250Z",
-        "ttl": "PT30S",
-        "bpp_id": "preprod-ondc.addble.com",
-        "bpp_uri": "https://preprod-ondc.addble.com/"
-    },
-    "message": {
-        "catalog": {
-            "bpp/fulfillments": [
+  "context": {
+    "domain": "ONDC:AGR10",
+    "country": "IND",
+    "city": "std:080",
+    "action": "on_search",
+    "core_version": "1.2.0",
+    "bap_id": "onca.dev.peat-cloud.com",
+    "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
+    "transaction_id": "91c28673-8a23-4f8b-8484-835331be724e",
+    "message_id": "81461f9a-2ec4-4b9c-a3fb-f5c16871af73",
+    "timestamp": "2024-11-06T12:35:03.817Z",
+    "ttl": "PT30S",
+    "bpp_id": "preprod-ondc.addble.com",
+    "bpp_uri": "https://preprod-ondc.addble.com/"
+  },
+  "message": {
+    "catalog": {
+      "bpp/fulfillments": [
+        {
+          "id": "1",
+          "type": "Delivery"
+        },
+        {
+          "id": "2",
+          "type": "Self-Pickup"
+        }
+      ],
+      "bpp/descriptor": {
+        "name": "Addble",
+        "short_desc": "ADDBLE SOLUTIONS PRIVATE LIMITED",
+        "long_desc": "ADDBLE SOLUTIONS PRIVATE LIMITED",
+        "symbol": "https://storage.googleapis.com/addble-panda/addble_logo_512x512.png",
+        "images": [
+          "https://storage.googleapis.com/addble-panda/addble_logo_512x512.png"
+        ],
+        "tags": [
+          {
+            "code": "bpp_terms",
+            "list": [
+              {
+                "code": "np_type",
+                "value": "MSN"
+              }
+            ]
+          }
+        ]
+      },
+      "bpp/providers": [
+        {
+          "id": "UBzw4QGewWquuLE8brUS",
+          "time": {
+            "label": "enable",
+            "timestamp": "2024-11-06T12:35:03.817Z"
+          },
+          "descriptor": {
+            "name": "Syngenta World",
+            "symbol": "https://media.istockphoto.com/id/1172109385/vector/pharmacy-cross-initial-ss-design-inspiration.jpg?s=1024x1024&w=is&k=20&c=4mjXZRSIaKpAV7MoqUiHLp1L1PzC1ojIfPR1X5sHFsc=",
+            "short_desc": "Syngenta World",
+            "long_desc": "Syngenta World",
+            "images": [
+              "https://media.istockphoto.com/id/1172109385/vector/pharmacy-cross-initial-ss-design-inspiration.jpg?s=1024x1024&w=is&k=20&c=4mjXZRSIaKpAV7MoqUiHLp1L1PzC1ojIfPR1X5sHFsc="
+            ]
+          },
+          "locations": [
+            {
+              "id": "EOKJBqid0zecXCvyQBCR",
+              "gps": "12.91414122848031, 77.63768276727586",
+              "address": {
+                "locality": "14th Main Road",
+                "street": "14th Main Road",
+                "city": "BENGALURU",
+                "area_code": "560102",
+                "state": "Karnataka"
+              },
+              "time": {
+                "days": "1,2,3,4,5,6,7",
+                "range": {
+                  "start": "0000",
+                  "end": "2359"
+                },
+                "schedule": {
+                  "holidays": []
+                },
+                "label": "enable",
+                "timestamp": "2024-11-06T12:35:03.812Z"
+              }
+            }
+          ],
+          "tags": [
+            {
+              "code": "serviceability",
+              "list": [
                 {
-                    "id": "1",
-                    "type": "Delivery"
+                  "code": "location",
+                  "value": "EOKJBqid0zecXCvyQBCR"
                 },
                 {
-                    "id": "2",
-                    "type": "Self-Pickup"
-                }
-            ],
-            "bpp/descriptor": {
-                "name": "Addble",
-                "short_desc": "ADDBLE SOLUTIONS PRIVATE LIMITED",
-                "long_desc": "ADDBLE SOLUTIONS PRIVATE LIMITED",
-                "symbol": "https://storage.googleapis.com/addble-panda/addble_logo_512x512.png",
-                "images": [
-                    "https://storage.googleapis.com/addble-panda/addble_logo_512x512.png"
-                ],
-                "tags": [
-                    {
-                        "code": "bpp_terms",
-                        "list": [
-                            {
-                                "code": "np_type",
-                                "value": "MSN"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "bpp/providers": [
+                  "code": "category",
+                  "value": "Seed"
+                },
                 {
-                    "id": "otJQetBqULjdFiys1IKa",
-                    "time": {
-                        "label": "enable",
-                        "timestamp": "2025-01-13T08:26:21.250Z"
-                    },
-                    "descriptor": {
-                        "name": "PLANTIX TEST",
-                        "symbol": "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg",
-                        "short_desc": "PLANTIX TEST",
-                        "long_desc": "PLANTIX TEST",
-                        "images": [
-                            "https://storage.googleapis.com/test-addble-images-content/otJQetBqULjdFiys1IKa/logo/logo-image_300x300.jpg"
-                        ]
-                    },
-                    "locations": [
-                        {
-                            "id": "4jCjKEGVSOOOWeJ8Flwo",
-                            "gps": "24.814414, 93.878926",
-                            "address": {
-                                "locality": "UK Road",
-                                "street": "UK Road",
-                                "city": "IMPHAL WEST",
-                                "area_code": "795146",
-                                "state": "Manipur"
-                            },
-                            "time": {
-                                "days": "1,2,3,4,5,6,7",
-                                "schedule": {
-                                    "holidays": []
-                                },
-                                "range": {
-                                    "start": "0000",
-                                    "end": "2359"
-                                },
-                                "label": "enable",
-                                "timestamp": "2025-01-13T08:26:21.238Z"
-                            }
-                        }
-                    ],
-                    "tags": [
-                        {
-                            "code": "serviceability",
-                            "list": [
-                                {
-                                    "code": "location",
-                                    "value": "4jCjKEGVSOOOWeJ8Flwo"
-                                },
-                                {
-                                    "code": "category",
-                                    "value": "Fertilizer"
-                                },
-                                {
-                                    "code": "type",
-                                    "value": "12"
-                                },
-                                {
-                                    "code": "val",
-                                    "value": "IND"
-                                },
-                                {
-                                    "code": "unit",
-                                    "value": "country"
-                                }
-                            ]
-                        },
-                        {
-                            "code": "serviceability",
-                            "list": [
-                                {
-                                    "code": "location",
-                                    "value": "4jCjKEGVSOOOWeJ8Flwo"
-                                },
-                                {
-                                    "code": "category",
-                                    "value": "Pesticide"
-                                },
-                                {
-                                    "code": "type",
-                                    "value": "12"
-                                },
-                                {
-                                    "code": "val",
-                                    "value": "IND"
-                                },
-                                {
-                                    "code": "unit",
-                                    "value": "country"
-                                }
-                            ]
-                        },
-                        {
-                            "code": "serviceability",
-                            "list": [
-                                {
-                                    "code": "location",
-                                    "value": "4jCjKEGVSOOOWeJ8Flwo"
-                                },
-                                {
-                                    "code": "category",
-                                    "value": "Tools and Machinery"
-                                },
-                                {
-                                    "code": "type",
-                                    "value": "12"
-                                },
-                                {
-                                    "code": "val",
-                                    "value": "IND"
-                                },
-                                {
-                                    "code": "unit",
-                                    "value": "country"
-                                }
-                            ]
-                        },
-                        {
-                            "code": "timing",
-                            "list": [
-                                {
-                                    "code": "type",
-                                    "value": "Order"
-                                },
-                                {
-                                    "code": "location",
-                                    "value": "4jCjKEGVSOOOWeJ8Flwo"
-                                },
-                                {
-                                    "code": "day_from",
-                                    "value": "1"
-                                },
-                                {
-                                    "code": "day_to",
-                                    "value": "7"
-                                },
-                                {
-                                    "code": "time_from",
-                                    "value": "0000"
-                                },
-                                {
-                                    "code": "time_to",
-                                    "value": "2359"
-                                }
-                            ]
-                        },
-                        {
-                            "code": "timing",
-                            "list": [
-                                {
-                                    "code": "type",
-                                    "value": "Self-Pickup"
-                                },
-                                {
-                                    "code": "location",
-                                    "value": "4jCjKEGVSOOOWeJ8Flwo"
-                                },
-                                {
-                                    "code": "day_from",
-                                    "value": "1"
-                                },
-                                {
-                                    "code": "day_to",
-                                    "value": "7"
-                                },
-                                {
-                                    "code": "time_from",
-                                    "value": "1000"
-                                },
-                                {
-                                    "code": "time_to",
-                                    "value": "2000"
-                                }
-                            ]
-                        },
-                        {
-                            "code": "timing",
-                            "list": [
-                                {
-                                    "code": "type",
-                                    "value": "Delivery"
-                                },
-                                {
-                                    "code": "location",
-                                    "value": "4jCjKEGVSOOOWeJ8Flwo"
-                                },
-                                {
-                                    "code": "day_from",
-                                    "value": "1"
-                                },
-                                {
-                                    "code": "day_to",
-                                    "value": "7"
-                                },
-                                {
-                                    "code": "time_from",
-                                    "value": "1100"
-                                },
-                                {
-                                    "code": "time_to",
-                                    "value": "2200"
-                                }
-                            ]
-                        }
-                    ],
-                    "categories": [],
-                    "items": [
-                        {
-                            "id": "6qEZUv7ck2TTYlFpFWgq",
-                            "time": {
-                                "label": "enable",
-                                "timestamp": "2024-11-21T11:00:17.815Z"
-                            },
-                            "descriptor": {
-                                "name": "Test fertilizer - 2 gm",
-                                "code": "5:6qEZUv7ck2TTYlFpFWgq",
-                                "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/front_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg",
-                                "short_desc": "Test fertilizer 2 unit",
-                                "long_desc": "Test fertilizer description",
-                                "images": [
-                                    "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/front_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg",
-                                    "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/6qEZUv7ck2TTYlFpFWgq/back_6qEZUv7ck2TTYlFpFWgq_900x900.jpeg"
-                                ]
-                            },
-                            "price": {
-                                "currency": "INR",
-                                "value": "800.00",
-                                "maximum_value": "900.00"
-                            },
-                            "category_id": "Fertilizer",
-                            "fulfillment_id": "F1",
-                            "location_id": "4jCjKEGVSOOOWeJ8Flwo",
-                            "@ondc/org/returnable": false,
-                            "@ondc/org/cancellable": false,
-                            "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
-                            "@ondc/org/time_to_ship": "PT4H",
-                            "recommended": true,
-                            "quantity": {
-                                "unitized": {
-                                    "measure": {
-                                        "unit": "gram",
-                                        "value": "2"
-                                    }
-                                },
-                                "available": {
-                                    "count": "0"
-                                },
-                                "maximum": {
-                                    "count": "0"
-                                }
-                            },
-                            "@ondc/org/return_window": "P1D",
-                            "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/available_on_cod": false,
-                            "tags": [
-                                {
-                                    "code": "origin",
-                                    "list": [
-                                        {
-                                            "code": "country",
-                                            "value": "IND"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "attribute",
-                                    "list": [
-                                        {
-                                            "code": "brand",
-                                            "value": "Test fertilizer brand"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "WkM0I3RIFbcHeLJxUceY",
-                            "time": {
-                                "label": "enable",
-                                "timestamp": "2024-11-07T13:09:23.165Z"
-                            },
-                            "descriptor": {
-                                "name": "Green Racer Bio-Pesticide - 100 mL",
-                                "code": "5:WkM0I3RIFbcHeLJxUceY",
-                                "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/front_WkM0I3RIFbcHeLJxUceY_900x900.jpeg",
-                                "short_desc": "Green Racer Bio-Pesticide 1 unit",
-                                "long_desc": "Green Racer is a bio-pesticide formulated with Beauveria bassiana, a naturally occurring fungus. It is effective in controlling a wide range of pests, including caterpillars, whiteflies, mealybugs, and aphids. To use, mix the recommended amount of Green Racer in water and apply it to your plants. It is important to follow the instructions on the product label for safe and effective use.",
-                                "images": [
-                                    "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/front_WkM0I3RIFbcHeLJxUceY_900x900.jpeg",
-                                    "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/WkM0I3RIFbcHeLJxUceY/back_WkM0I3RIFbcHeLJxUceY_900x900.jpeg"
-                                ]
-                            },
-                            "price": {
-                                "currency": "INR",
-                                "value": "150.00",
-                                "maximum_value": "150.00"
-                            },
-                            "category_id": "Pesticide",
-                            "fulfillment_id": "F1",
-                            "location_id": "4jCjKEGVSOOOWeJ8Flwo",
-                            "@ondc/org/returnable": false,
-                            "@ondc/org/cancellable": false,
-                            "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
-                            "@ondc/org/time_to_ship": "PT4H",
-                            "recommended": true,
-                            "quantity": {
-                                "unitized": {
-                                    "measure": {
-                                        "unit": "millilitre",
-                                        "value": "100"
-                                    }
-                                },
-                                "available": {
-                                    "count": "99"
-                                },
-                                "maximum": {
-                                    "count": "99"
-                                }
-                            },
-                            "@ondc/org/return_window": "P1D",
-                            "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/available_on_cod": false,
-                            "tags": [
-                                {
-                                    "code": "origin",
-                                    "list": [
-                                        {
-                                            "code": "country",
-                                            "value": "IND"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "attribute",
-                                    "list": [
-                                        {
-                                            "code": "brand",
-                                            "value": "PLANTIX"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Ys3dWuXU3W8sUVAvxIei",
-                            "time": {
-                                "label": "enable",
-                                "timestamp": "2024-11-19T09:31:35.882Z"
-                            },
-                            "descriptor": {
-                                "name": "My Test machine - 1 kg - 1 kg - My net content description",
-                                "code": "5:Ys3dWuXU3W8sUVAvxIei",
-                                "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/front_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg",
-                                "short_desc": "My Test machine My net content description",
-                                "long_desc": "My test description",
-                                "images": [
-                                    "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/front_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg",
-                                    "https://storage.googleapis.com/test-addble-images-sq/products/otJQetBqULjdFiys1IKa/Ys3dWuXU3W8sUVAvxIei/back_Ys3dWuXU3W8sUVAvxIei_900x900.jpeg"
-                                ]
-                            },
-                            "price": {
-                                "currency": "INR",
-                                "value": "1030.00",
-                                "maximum_value": "1530.00"
-                            },
-                            "category_id": "Tools and Machinery",
-                            "fulfillment_id": "F1",
-                            "location_id": "4jCjKEGVSOOOWeJ8Flwo",
-                            "@ondc/org/returnable": false,
-                            "@ondc/org/cancellable": false,
-                            "@ondc/org/contact_details_consumer_care": "Plantix Test Support, plantix@addble.com, 0",
-                            "@ondc/org/time_to_ship": "PT4H",
-                            "recommended": true,
-                            "quantity": {
-                                "unitized": {
-                                    "measure": {
-                                        "unit": "kilogram",
-                                        "value": "1"
-                                    }
-                                },
-                                "available": {
-                                    "count": "99"
-                                },
-                                "maximum": {
-                                    "count": "2"
-                                }
-                            },
-                            "@ondc/org/return_window": "P1D",
-                            "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/available_on_cod": false,
-                            "tags": [
-                                {
-                                    "code": "origin",
-                                    "list": [
-                                        {
-                                            "code": "country",
-                                            "value": "IND"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "attribute",
-                                    "list": [
-                                        {
-                                            "code": "brand",
-                                            "value": "My Test Brand"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "fulfillments": [
-                        {
-                            "id": "F1",
-                            "type": "Delivery",
-                            "contact": {
-                                "phone": "0000000000",
-                                "email": "plantix@addble.com"
-                            }
-                        },
-                        {
-                            "id": "F2",
-                            "type": "Self-Pickup",
-                            "contact": {
-                                "phone": "0000000000",
-                                "email": "plantix@addble.com"
-                            }
-                        }
-                    ],
-                    "ttl": "PT6H"
+                  "code": "type",
+                  "value": "10"
+                },
+                {
+                  "code": "val",
+                  "value": "5000"
+                },
+                {
+                  "code": "unit",
+                  "value": "km"
                 }
-            ]
+              ]
+            },
+            {
+              "code": "timing",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "Order"
+                },
+                {
+                  "code": "location",
+                  "value": "EOKJBqid0zecXCvyQBCR"
+                },
+                {
+                  "code": "day_from",
+                  "value": "1"
+                },
+                {
+                  "code": "day_to",
+                  "value": "7"
+                },
+                {
+                  "code": "time_from",
+                  "value": "0000"
+                },
+                {
+                  "code": "time_to",
+                  "value": "2359"
+                }
+              ]
+            },
+            {
+              "code": "timing",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "Self-Pickup"
+                },
+                {
+                  "code": "location",
+                  "value": "EOKJBqid0zecXCvyQBCR"
+                },
+                {
+                  "code": "day_from",
+                  "value": "1"
+                },
+                {
+                  "code": "day_to",
+                  "value": "7"
+                },
+                {
+                  "code": "time_from",
+                  "value": "1000"
+                },
+                {
+                  "code": "time_to",
+                  "value": "2000"
+                }
+              ]
+            },
+            {
+              "code": "timing",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "Delivery"
+                },
+                {
+                  "code": "location",
+                  "value": "EOKJBqid0zecXCvyQBCR"
+                },
+                {
+                  "code": "day_from",
+                  "value": "1"
+                },
+                {
+                  "code": "day_to",
+                  "value": "7"
+                },
+                {
+                  "code": "time_from",
+                  "value": "1100"
+                },
+                {
+                  "code": "time_to",
+                  "value": "2200"
+                }
+              ]
+            }
+          ],
+          "categories": [],
+          "items": [
+            {
+              "id": "1htOfSnGRJczHdedQNaw",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-08-07T10:53:03.910Z"
+              },
+              "descriptor": {
+                "name": "Veg Seeds - 250 gm - 250 gm - 1 Pack",
+                "code": "5:1htOfSnGRJczHdedQNaw",
+                "symbol": "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/front_1htOfSnGRJczHdedQNaw_900x900.png",
+                "short_desc": "Veg Seeds 1 Pack",
+                "long_desc": "Veg Seeds 1 Pack",
+                "images": [
+                  "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/front_1htOfSnGRJczHdedQNaw_900x900.png",
+                  "https://storage.googleapis.com/test-addble-images-sq/products/UBzw4QGewWquuLE8brUS/1htOfSnGRJczHdedQNaw/back_1htOfSnGRJczHdedQNaw_900x900.png"
+                ]
+              },
+              "price": {
+                "currency": "INR",
+                "value": "40.00",
+                "maximum_value": "40.00"
+              },
+              "category_id": "Seed",
+              "fulfillment_id": "F1",
+              "location_id": "EOKJBqid0zecXCvyQBCR",
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/contact_details_consumer_care": "Jane Doe, adden.company@gmail.com, 6362944815",
+              "@ondc/org/time_to_ship": "PT4H",
+              "recommended": true,
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gram",
+                    "value": "250"
+                  }
+                },
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "99"
+                }
+              },
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/available_on_cod": false,
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "attribute",
+                  "list": [
+                    {
+                      "code": "brand",
+                      "value": "SYNGENTA"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "F1",
+              "type": "Delivery",
+              "contact": {
+                "phone": "9954780440",
+                "email": "jane@addble.com"
+              }
+            },
+            {
+              "id": "F2",
+              "type": "Self-Pickup",
+              "contact": {
+                "phone": "9954780440",
+                "email": "jane@addble.com"
+              }
+            }
+          ],
+          "ttl": "PT6H"
         }
+      ]
     }
+  }
 }
