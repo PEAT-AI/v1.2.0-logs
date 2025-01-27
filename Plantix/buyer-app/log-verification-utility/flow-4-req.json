@@ -22,7 +22,7 @@
                 "intent": {
                     "payment": {
                         "@ondc/org/buyer_app_finder_fee_type": "percent",
-                        "@ondc/org/buyer_app_finder_fee_amount": "5",
+                        "@ondc/org/buyer_app_finder_fee_amount": "3",
                         "collected_by": "BAP",
                         "type": "ON-ORDER"
                     },

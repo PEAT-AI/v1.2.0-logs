@@ -98,7 +98,7 @@
                 "type": "ON-ORDER",
                 "collected_by": "BAP",
                 "@ondc/org/buyer_app_finder_fee_type": "percent",
-                "@ondc/org/buyer_app_finder_fee_amount": "5",
+                "@ondc/org/buyer_app_finder_fee_amount": "3",
                 "@ondc/org/settlement_details": [
                     {
                         "settlement_counterparty": "seller-app",

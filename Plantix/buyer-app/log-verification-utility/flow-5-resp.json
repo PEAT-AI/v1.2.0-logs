@@ -10,11 +10,9 @@
             "on_init": {
                 "taxNumberValue": "Invalid format for tax_number in on_init",
                 "provider_tax_number": "Invalid format for provider_tax_number in on_init",
-                "buyerFF": "Buyer app finder fee can't change in /on_init",
                 "tags": "'provider_tax_number' should have a valid PAN number format"
             },
             "confirm": {
-                "bapFinderFee": "Buyer App Finder fee can't change",
                 "message/order/tags/bap_terms/static_terms": "static_terms is not required for now! in confirm"
             },
             "on_confirm": {
@@ -23,7 +21,6 @@
                 "schemaErr2": "/message/order/tags/0/list/1/value Value for provider_tax_number must be alphanumeric characters only",
                 "tax_number": "Invalid format for tax_number in on_confirm",
                 "provider_tax_number": "Invalid format for provider_tax_number in on_confirm",
-                "buyerFF": "Buyer app finder fee can't change in /on_confirm",
                 "message/order/tags/bap_terms/static_terms": "static_terms is not required for now! in on_confirm"
             },
             "on_status_picked": {
@@ -51,8 +48,8 @@
         "bpp_id": "preprod-ondc.addble.com",
         "bap_id": "onca.dev.peat-cloud.com",
         "domain": "ONDC:AGR10",
-        "reportTimestamp": "2025-01-27T09:22:43.246Z"
+        "reportTimestamp": "2025-01-27T10:08:34.590Z"
     },
-    "signature": "rlHD3/VRlapbRABOvYcNgVQfDLnRUd2s409E2XxgcQPsUdskIyoA6ncXDqg0TLJPO5wJt/ODZu37+uN1rwrcDg==",
-    "signTimestamp": "2025-01-27T09:22:43.246Z"
+    "signature": "Q0MOP3RtgSvuVDhdeW3ATfUfPCVPfgOQGlfkbTrICTmkkYSR7U1EcSvhcC0NJ2r1ZKsiRijtCqiri+6LCZd6Dw==",
+    "signTimestamp": "2025-01-27T10:08:34.590Z"
 }

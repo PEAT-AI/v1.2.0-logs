@@ -39,8 +39,8 @@
         "bpp_id": "preprod-ondc.addble.com",
         "bap_id": "onca.dev.peat-cloud.com",
         "domain": "ONDC:AGR10",
-        "reportTimestamp": "2025-01-27T09:13:45.153Z"
+        "reportTimestamp": "2025-01-27T09:59:06.437Z"
     },
-    "signature": "I8t8lXO/fqG+YsnGWZ3I2TxPC2NaPVb98gHGWVen++XXiCoOh4Sk6aedMPXxt3WkfNUVKSPVhmp2H6zVeCF9Dg==",
-    "signTimestamp": "2025-01-27T09:13:45.153Z"
+    "signature": "KNnOT6Q9zWFGb868Xt/Pmr1cWJQ5p2IUMVeqM2FrJUoB4LUtJAZ7O7VfhReDAEx9GIQFlSqitEmIMbDNLxcDDg==",
+    "signTimestamp": "2025-01-27T09:59:06.437Z"
 }
