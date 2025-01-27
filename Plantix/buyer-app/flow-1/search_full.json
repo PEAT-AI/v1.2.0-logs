@@ -1,44 +1,44 @@
 {
-  "context": {
-    "domain": "ONDC:AGR10",
-    "country": "IND",
-    "city": "std:0385",
-    "action": "search",
-    "core_version": "1.2.0",
-    "bap_id": "onca.dev.peat-cloud.com",
-    "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
-    "transaction_id": "743f0600-3846-41c6-a867-a70e81cc1309",
-    "message_id": "8c9ff360-8e14-457d-bc74-a5cb57a3e360",
-    "timestamp": "2024-12-18T11:34:17.611Z",
-    "ttl": "PT30S"
-  },
-  "message": {
-    "intent": {
-      "payment": {
-        "@ondc/org/buyer_app_finder_fee_type": "percent",
-        "@ondc/org/buyer_app_finder_fee_amount": "5",
-        "collected_by": "BAP",
-        "type": "ON-ORDER"
-      },
-      "tags": [
-        {
-          "code": "bap_terms",
-          "list": [
-            {
-              "code": "static_terms",
-              "value": ""
+    "context": {
+        "domain": "ONDC:AGR10",
+        "country": "IND",
+        "city": "std:0385",
+        "action": "search",
+        "core_version": "1.2.0",
+        "bap_id": "onca.dev.peat-cloud.com",
+        "bap_uri": "https://onca.dev.peat-cloud.com/ondc/v1",
+        "transaction_id": "8c3d63e9-0aff-429a-a752-7f847f1f208e",
+        "message_id": "31e6b8e9-2a18-4c8d-9661-e014fbd6bfcf",
+        "timestamp": "2025-01-13T08:26:08.076Z",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "intent": {
+            "payment": {
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/buyer_app_finder_fee_amount": "5",
+                "collected_by": "BAP",
+                "type": "ON-ORDER"
             },
-            {
-              "code": "static_terms_new",
-              "value": ""
-            },
-            {
-              "code": "effective_date",
-              "value": ""
-            }
-          ]
+            "tags": [
+                {
+                    "code": "bap_terms",
+                    "list": [
+                        {
+                            "code": "static_terms",
+                            "value": ""
+                        },
+                        {
+                            "code": "static_terms_new",
+                            "value": ""
+                        },
+                        {
+                            "code": "effective_date",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     }
-  }
 }
